@@ -69,3 +69,6 @@ account_embed_abbreviation_description: 'Geh auf dein Clash of Clans Profil {emo
 account_embed_token_title: "API-Token"
 account_embed_token_description: "Öffne die `Einstellungen` {emoji} und drück auf die Schaltfläche `Mehr Einstellungen`. Scroll nach ganz unten und drück unter **API-Token** auf `Anzeigen`. Sobald dein Token angezeigt wird, kannst du ihn hier abtippen oder auf die Schaltfläche `Kopieren` tippen."
 account_button_verify_label: Anmelden
+account_modal_verify_title: Account verifizieren
+account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
+account_modal_verify_token_description: 8-Stelliger Code

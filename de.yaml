@@ -61,13 +61,13 @@ player_troops_village_home: Dorf
 player_troops_village_builderBase: Bauarbeiterbasis
 account_command_name: account
 account_command_description: Zeigt Informationen über deinen Clash Of Clans Account an.
-account_embed_author: Profil von {name}
+account_embed_author: Account von {name}
 account_embed_title: ❌ Kein registrierter Clash of Clans Account
 account_embed_description: Um deinen Clash of Clans Account zu verlinken, benötigst du dein `Profil-Kürzel` und deinen `API-Token`
 account_embed_abbreviation_title: "Profil-Kürzel"
-account_embed_abbreviation_description: 'Geh auf dein Clash of Clans Profil {emoji}. Unter deinem Namen findest du ein ein # gefolgt von Buchstaben. z.B.: `#ABCDEFGH`'
+account_embed_abbreviation_description: 'Geh auf dein Clash of Clans **Profil** {emoji}. Unter deinem Namen findest du ein ein `#` gefolgt von Buchstaben. z.B.: `#ABCDEFGH`'
 account_embed_token_title: "API-Token"
-account_embed_token_description: "Öffne die `Einstellungen` {emoji} und drück auf die Schaltfläche `Mehr Einstellungen`. Scroll nach ganz unten und drück unter **API-Token** auf `Anzeigen`. Sobald dein Token angezeigt wird, kannst du ihn hier abtippen oder auf die Schaltfläche `Kopieren` tippen."
+account_embed_token_description: "Öffne die **Einstellungen** {emoji} und drück auf die Schaltfläche **Mehr Einstellungen**. Scroll nach ganz unten und drück unter **API-Token** auf **Anzeigen**. Sobald dein Token angezeigt wird, kannst du ihn hier abtippen oder auf die Schaltfläche **Kopieren** tippen."
 account_button_verify_label: Anmelden
 account_modal_verify_title: Account verifizieren
 account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"

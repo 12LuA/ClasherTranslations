@@ -5,6 +5,8 @@ api_error_403_embed_title: "Zugriff verweigert"
 api_error_403_embed_description: "Der Account des Spielers ist nicht verfügbar."
 api_error_404_embed_title: "Spieler nicht gefunden."
 api_error_404_embed_description: Deine Spieler-ID findest du in deinem Clash of Clans Profil.
+api_error_404_account_embed_title: "{emoji} Account nicht gefunden"
+api_error_404_account_embed_description: Das von dir angegebene **Kürzel** oder der **API-Token** sind nicht korrekt.
 api_error_429_embed_title: "Zu viele Anfragen"
 api_error_429_embed_description: "Der Clash of Clans Server ist derzeit überlastet. Bitte versuche es später erneut."
 api_error_500_embed_title: "Interner Serverfehler"
@@ -62,7 +64,7 @@ player_troops_village_builderBase: Bauarbeiterbasis
 account_command_name: account
 account_command_description: Zeigt Informationen über deinen Clash Of Clans Account an.
 account_embed_author: Account von {name}
-account_embed_title: ❌ Kein registrierter Clash of Clans Account
+account_embed_title: "{emoji} Kein registrierter Clash of Clans Account"
 account_embed_description: Um deinen Clash of Clans Account zu verlinken, benötigst du dein `Profil-Kürzel` und deinen `API-Token`
 account_embed_abbreviation_title: "Profil-Kürzel"
 account_embed_abbreviation_description: 'Geh auf dein Clash of Clans **Profil** {emoji}. Unter deinem Namen findest du ein ein `#` gefolgt von Buchstaben. z.B.: `#ABCDEFGH`'
@@ -72,3 +74,9 @@ account_button_verify_label: Anmelden
 account_modal_verify_title: Account verifizieren
 account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
 account_modal_verify_token_description: 8-Stelliger Code
+account_modal_verify_embed_title: "{emoji} Account erfolgreich registriert"
+account_modal_verify_embed_description: Verwende `/spielerinfo` um dein Profil anzusehen.
+account_embed_verified_title: "{emoji} Dein Account ist bereits registriert"
+account_embed_verified_description: Verwende `/spielerinfo` um dein Profil anzusehen.
+account_button_reset_label: Abmelden
+account_button_reset_title: "{emoji} Du hast dich erfolgreich abgemeldet"

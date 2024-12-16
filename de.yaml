@@ -24,7 +24,9 @@ about_embed_shards_current: Dieser Server befindet sich auf Shard {shard_id}.
 players_command_name: spielerinfo
 players_command_description: Zeigt Informationen über einen Clash Of Clans Spieler an.
 players_option_playertag_name: spieler-tag
+players_option_user_name: discord-account
 players_option_playertag_description: Der Tag des Spielers, den du anzeigen möchtest.
+players_option_user_description: Der Discord-Account, dessen Spielerprofil du anzeigen möchtest.
 players_select_option_placeholder: Wähle eine Kategorie aus
 players_select_option_general_name: Allgemein
 players_select_option_general_description: Zeigt allgemeine Informationen über den Spieler an.
@@ -58,6 +60,10 @@ players_clanCapitalContributions: Stadtgold beigetragen
 players_clan_FullClanInfo: vollständige Clan Informationen
 players_achievements_title: Erfolge von {name}
 players_achievements_site: Seite {page} von {total_pages}
+players_error_invalid_syntax_title: Spieler nicht gefunden
+players_error_invalid_syntax_description: "Gebe einen gültigen Spieler-Tag an oder verlinke deinen Account mit `/account`"
+players_error_not_linked_title: Account nicht verlinkt
+players_error_not_linked_description: "{name} hat seinen Account noch nicht verlinkt."
 player_troops_title: Truppen von {name}
 player_troops_village_home: Dorf
 player_troops_village_builderBase: Bauarbeiterbasis

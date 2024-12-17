@@ -65,6 +65,7 @@ players_error_invalid_syntax_description: "Gebe einen gültigen Spieler-Tag an o
 players_error_not_linked_title: Account nicht verlinkt
 players_error_not_linked_description: "{name} hat seinen Account noch nicht verlinkt."
 player_troops_title: Truppen von {name}
+player_troops_level: "Level **{level}/{max_level}**"
 player_troops_village_home: Dorf
 player_troops_village_builderBase: Bauarbeiterbasis
 account_command_name: account

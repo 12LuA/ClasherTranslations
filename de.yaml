@@ -87,3 +87,7 @@ account_embed_verified_title: "{emoji} Dein Account ist bereits registriert"
 account_embed_verified_description: Verwende `/spielerinfo` um dein Profil anzusehen.
 account_button_reset_label: Abmelden
 account_button_reset_title: "{emoji} Du hast dich erfolgreich abgemeldet"
+clans_command_name: claninfo
+clans_command_description: Zeigt Informationen über einen Clan in Clash Of Clans an.
+clans_option_clantag_name: clan-tag
+clans_option_clantag_description: Der Tag des Clans, den du anzeigen möchtest.

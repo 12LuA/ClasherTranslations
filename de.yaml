@@ -7,6 +7,8 @@ api_error_404_embed_title: "Spieler nicht gefunden."
 api_error_404_embed_description: Deine Spieler-ID findest du in deinem Clash of Clans Profil.
 api_error_404_account_embed_title: "{emoji} Account nicht gefunden"
 api_error_404_account_embed_description: Das von dir angegebene **Kürzel** oder der **API-Token** sind nicht korrekt.
+api_error_404_clans_embed_title: "Clan nicht gefunden."
+api_error_404_clans_embed_description: "Der Clan-Tag enthält ungültige Zeichen und konnte daher nicht verarbeitet werden."
 api_error_429_embed_title: "Zu viele Anfragen"
 api_error_429_embed_description: "Der Clash of Clans Server ist derzeit überlastet. Bitte versuche es später erneut."
 api_error_500_embed_title: "Interner Serverfehler"

@@ -114,3 +114,9 @@ clans_general_warTies: "{emoji} Unentschieden: {ties}"
 clans_general_warLosses: "{emoji} Niederlagen: {losses}"
 clans_members_title: Mitglieder ({count})
 clans_members_site: Seite {page} von {total_pages}
+clans_clans_title: Öffentliche Clans
+clans_clans_site: Seite {page} von {total_pages}
+clans_clans_requiredTrophies: "Benötigte Trophähen: {trophies}"
+clans_clans_join: "[Clan beitreten](<{url}>)"
+clans_clans_members: "Mitglieder: {count}"
+clans_clans_isFamilyFriendly: "Familienfreundlich"

@@ -120,3 +120,13 @@ clans_clans_requiredTrophies: "Benötigte Trophähen: {trophies}"
 clans_clans_join: "[Clan beitreten](<{url}>)"
 clans_clans_members: "Mitglieder: {count}"
 clans_clans_isFamilyFriendly: "Familienfreundlich"
+clansearch_command_name: clansuche
+clansearch_command_description: Suche nach einem Clan in Clash Of Clans.
+clansearch_option_mcp_name: minimale-clanpunkte
+clansearch_option_mcp_description: Die minimalen Trophähen, die ein Clan haben muss.
+clansearch_option_mcl_name: minimales-clanlevel
+clansearch_option_mcl_description: Das minimale Level, das ein Clan haben muss.
+clansearch_option_mm_name: minimale-mitglieder
+clansearch_option_mm_description: Die minimale Anzahl an Mitgliedern, die ein Clan haben muss.
+clansearch_option_mx_name: maximale-mitglieder
+clansearch_option_mx_description: Die maximale Anzahl an Mitgliedern, die ein Clan haben darf.

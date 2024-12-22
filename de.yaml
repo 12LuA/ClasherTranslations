@@ -93,3 +93,17 @@ clans_command_name: claninfo
 clans_command_description: Zeigt Informationen über einen Clan in Clash Of Clans an.
 clans_option_clantag_name: clan-tag
 clans_option_clantag_description: Der Tag des Clans, den du anzeigen möchtest.
+clans_general_general: Allgemeine Informationen
+clans_general_general_level: "{emoji} Level: {level}"
+clans_general_general_members: "{emoji} Mitglieder: {members}"
+clans_general_general_isFamilyFriendly: "{emoji} Familienfreundlich"
+clans_general_location: Standort
+clans_general_stats: Statistiken
+clans_general_stats_clanPoints: "{emoji} Clanpunkte: {points}"
+clans_general_stats_clanBuilderBasePoints: "{emoji} Bauarbeiterbasispunkte: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} Stadtgoldpunkte: {points}"
+clans_general_clanwar: Clankrieg
+clans_general_warWinStreak: "{emoji} Siegesserie: {streak}"
+clans_general_warWins: "{emoji} Kriegssiege: {wins}"
+clans_general_warTies: "{emoji} Unentschieden: {ties}"
+clans_general_warLosses: "{emoji} Niederlagen: {losses}"

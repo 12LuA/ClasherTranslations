@@ -93,6 +93,11 @@ clans_command_name: claninfo
 clans_command_description: Zeigt Informationen über einen Clan in Clash Of Clans an.
 clans_option_clantag_name: clan-tag
 clans_option_clantag_description: Der Tag des Clans, den du anzeigen möchtest.
+clans_select_option_general_name: Allgemein
+clans_select_option_general_description: Zeigt allgemeine Informationen über den Clan an.
+clans_select_option_placeholder: Wähle eine Kategorie aus
+clans_select_option_members_name: Mitglieder
+clans_select_option_members_description: Zeigt Informationen über die Mitglieder des Clans an.
 clans_general_general: Allgemeine Informationen
 clans_general_general_level: "{emoji} Level: {level}"
 clans_general_general_members: "{emoji} Mitglieder: {members}"
@@ -107,3 +112,5 @@ clans_general_warWinStreak: "{emoji} Siegesserie: {streak}"
 clans_general_warWins: "{emoji} Kriegssiege: {wins}"
 clans_general_warTies: "{emoji} Unentschieden: {ties}"
 clans_general_warLosses: "{emoji} Niederlagen: {losses}"
+clans_members_title: Mitglieder ({count})
+clans_members_site: Seite {page} von {total_pages}

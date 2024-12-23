@@ -106,7 +106,7 @@ clans_general_location: Standort
 clans_general_stats: Statistiken
 clans_general_stats_clanPoints: "{emoji} Clanpunkte: {points}"
 clans_general_stats_clanBuilderBasePoints: "{emoji} Bauarbeiterbasispunkte: {points}"
-clans_general_stats_clanCapitalPoints: "{emoji} Stadtgoldpunkte: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} Clanstadt-Trophähen: {points}"
 clans_general_clanwar: Clankrieg
 clans_general_warWinStreak: "{emoji} Siegesserie: {streak}"
 clans_general_warWins: "{emoji} Kriegssiege: {wins}"

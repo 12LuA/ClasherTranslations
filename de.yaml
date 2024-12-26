@@ -21,6 +21,7 @@ about_embed_author_name: Über mich
 about_embed_general_title: Generelles
 about_embed_general_guilds: Server
 about_embed_general_installs: Installationen
+about_embed_cmds_title: "Befehle verwendet:"
 about_embed_shards_shard: Shard
 about_embed_shards_current: Dieser Server befindet sich auf Shard {shard_id}.
 players_command_name: spielerinfo

@@ -131,3 +131,17 @@ clansearch_option_mm_name: minimale-mitglieder
 clansearch_option_mm_description: Die minimale Anzahl an Mitgliedern, die ein Clan haben muss.
 clansearch_option_mx_name: maximale-mitglieder
 clansearch_option_mx_description: Die maximale Anzahl an Mitgliedern, die ein Clan haben darf.
+compare_command_name: vergleichen
+compare_command_description: Vergleiche zwei Spieler in Clash Of Clans.
+compare_option_playertag1_name: spieler-tag-1
+compare_option_playertag2_name: spieler-tag-2
+compare_option_playertag1_description: Der Tag des ersten Spielers, den du vergleichen möchtest.
+compare_option_playertag2_description: Der Tag des zweiten Spielers, den du vergleichen möchtest.
+compare_embed_title: "{player1} VS {player2}"
+compare_embed_TownHallLevel: Rathaus
+compare_embed_ExpLevel: Erfahrungslevel
+compare_embed_currectTrophies: Aktuelle Trophähen
+compare_embed_bestTrophies: Beste Trophähen
+compare_embed_warStars: Kriegssterne
+compare_embed_current_donations: "Aktuelle Spenden ({emoji1}/{emoji2})"
+compare_embed_total_donations: "Gesamte Spenden"

@@ -137,7 +137,8 @@ compare_option_playertag1_name: spieler-tag-1
 compare_option_playertag2_name: spieler-tag-2
 compare_option_playertag1_description: Der Tag des ersten Spielers, den du vergleichen möchtest.
 compare_option_playertag2_description: Der Tag des zweiten Spielers, den du vergleichen möchtest.
-compare_embed_title: "{player1} VS {player2}"
+compare_embed_title: "Spielervergleich"
+compare_embed_description: "{player1} vs {player2}"
 compare_embed_TownHallLevel: Rathaus
 compare_embed_ExpLevel: Erfahrungslevel
 compare_embed_currectTrophies: Aktuelle Trophähen

@@ -1,0 +1,148 @@
+general_unknown: Inconnu
+api_error_400_embed_title: "Mauvaise requête"
+api_error_400_embed_description: "Le tag du joueur contient des caractères invalides et n'a pas pu être traité."
+api_error_403_embed_title: "Accès refusé"
+api_error_403_embed_description: "Le compte du joueur n'est pas disponible."
+api_error_404_embed_title: "Joueur non trouvé."
+api_error_404_embed_description: "Vous pouvez trouver votre ID de joueur dans votre profil Clash of Clans."
+api_error_404_account_embed_title: "{emoji} Compte non trouvé"
+api_error_404_account_embed_description: "L'**abréviation** ou le **jeton API** que vous avez fourni est incorrect."
+api_error_404_clans_embed_title: "Clan non trouvé."
+api_error_404_clans_embed_description: "Le tag du clan contient des caractères invalides et n'a pas pu être traité."
+api_error_429_embed_title: "Trop de requêtes"
+api_error_429_embed_description: "Le serveur Clash of Clans est actuellement surchargé. Veuillez réessayer plus tard."
+api_error_500_embed_title: "Erreur interne du serveur"
+api_error_500_embed_description: "Une erreur inattendue s'est produite. Veuillez réessayer plus tard."
+api_error_503_embed_title: "Serveur indisponible"
+api_error_503_embed_description: "Le serveur Clash of Clans est actuellement indisponible. Veuillez réessayer plus tard."
+about_command_name: apropos
+about_command_description: Affiche des informations sur le bot.
+about_embed_author_name: À propos de moi
+about_embed_general_title: Général
+about_embed_general_guilds: Serveurs
+about_embed_general_installs: Installations
+about_embed_cmds_title: "Commandes utilisées :"
+about_embed_shards_shard: Shard
+about_embed_shards_current: Ce serveur est sur le shard {shard_id}.
+players_command_name: infojoueur
+players_command_description: Affiche des informations sur un joueur de Clash Of Clans.
+players_option_playertag_name: tag-joueur
+players_option_user_name: compte-discord
+players_option_playertag_description: Le tag du joueur que vous souhaitez afficher.
+players_option_user_description: Le compte Discord dont vous souhaitez afficher le profil du joueur.
+players_select_option_placeholder: Sélectionnez une catégorie
+players_select_option_general_name: Général
+players_select_option_general_description: Affiche des informations générales sur le joueur.
+players_select_option_clan_name: Clan
+players_select_option_clan_description: Affiche des informations sur le clan du joueur.
+players_select_option_achievements_name: Réalisations
+players_select_option_achievements_description: Affiche les réalisations du joueur.
+players_select_option_troops_name: Troupes
+players_select_option_troops_description: Affiche des informations sur les troupes du joueur.
+players_general_townHallLevel: Hôtel de ville
+players_general_expLevel: Expérience
+players_general_level: Niveau
+player_general_league: Ligue
+players_general_currectTrophies: Trophées actuels
+players_general_bestTrophies: Meilleurs trophées
+players_general_fight: Combat
+players_general_warstars: Étoiles de guerre
+players_general_attackWins: Victoires en attaque
+players_general_defenseWins: Victoires en défense
+players_general_donations: Dons
+players_general_troopsDonated: Troupes données
+players_general_troopsReceived: Troupes reçues
+players_general_totalDonations: Dons totaux
+players_clan_clanLevel: Niveau du clan
+players_clan_role: Rôle
+players_clan_role_leader: Chef
+players_clan_role_coleader: Chef adjoint
+players_clan_role_elder: Aîné
+players_clan_role_member: Membre
+players_clanCapitalContributions: Contributions à la capitale du clan
+players_clan_FullClanInfo: Informations complètes sur le clan
+players_achievements_title: Réalisations de {name}
+players_achievements_site: Page {page} sur {total_pages}
+players_error_invalid_syntax_title: Joueur non trouvé
+players_error_invalid_syntax_description: "Fournissez un tag de joueur valide ou liez votre compte avec `/account`"
+players_error_not_linked_title: Compte non lié
+players_error_not_linked_description: "{name} n'a pas encore lié son compte."
+player_troops_title: Troupes de {name}
+player_troops_level: "Niveau **{level}/{max_level}**"
+player_troops_village_home: Village
+player_troops_village_builderBase: Base du constructeur
+account_command_name: compte
+account_command_description: Affiche des informations sur votre compte Clash Of Clans.
+account_embed_author: Compte de {name}
+account_embed_title: "{emoji} Aucun compte Clash of Clans enregistré"
+account_embed_description: Pour lier votre compte Clash of Clans, vous avez besoin de votre `abréviation de profil` et de votre `jeton API`
+account_embed_abbreviation_title: "Abréviation de profil"
+account_embed_abbreviation_description: 'Allez dans votre **profil** Clash of Clans {emoji}. Sous votre nom, vous trouverez un `#` suivi de lettres. par ex.: `#ABCDEFGH`'
+account_embed_token_title: "Jeton API"
+account_embed_token_description: "Ouvrez les **paramètres** {emoji} et appuyez sur le bouton **Plus de paramètres**. Faites défiler jusqu'en bas et appuyez sur **Afficher** sous **Jeton API**. Une fois que votre jeton est affiché, vous pouvez le taper ici ou appuyer sur le bouton **Copier**."
+account_button_verify_label: Se connecter
+account_modal_verify_title: Vérifier le compte
+account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
+account_modal_verify_token_description: Code à 8 chiffres
+account_modal_verify_embed_title: "{emoji} Compte enregistré avec succès"
+account_modal_verify_embed_description: Utilisez `/playerinfo` pour voir votre profil.
+account_embed_verified_title: "{emoji} Votre compte est déjà enregistré"
+account_embed_verified_description: Utilisez `/playerinfo` pour voir votre profil.
+account_button_reset_label: Se déconnecter
+account_button_reset_title: "{emoji} Vous vous êtes déconnecté avec succès"
+clans_command_name: infoclan
+clans_command_description: Affiche des informations sur un clan dans Clash Of Clans.
+clans_option_clantag_name: tag-clan
+clans_option_clantag_description: Le tag du clan que vous souhaitez afficher.
+clans_select_option_general_name: Général
+clans_select_option_general_description: Affiche des informations générales sur le clan.
+clans_select_option_placeholder: Sélectionnez une catégorie
+clans_select_option_members_name: Membres
+clans_select_option_members_description: Affiche des informations sur les membres du clan.
+clans_general_general: Informations générales
+clans_general_general_level: "{emoji} Niveau: {level}"
+clans_general_general_members: "{emoji} Membres: {members}"
+clans_general_general_isFamilyFriendly: "{emoji} Adapté aux familles"
+clans_general_location: Emplacement
+clans_general_stats: Statistiques
+clans_general_stats_clanPoints: "{emoji} Points du clan: {points}"
+clans_general_stats_clanBuilderBasePoints: "{emoji} Points de la base du constructeur: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} Trophées de la capitale du clan: {points}"
+clans_general_clanwar: Guerre de clan
+clans_general_warWinStreak: "{emoji} Série de victoires: {streak}"
+clans_general_warWins: "{emoji} Victoires en guerre: {wins}"
+clans_general_warTies: "{emoji} Égalités en guerre: {ties}"
+clans_general_warLosses: "{emoji} Défaites: {losses}"
+clans_members_title: Membres ({count})
+clans_members_site: Page {page} sur {total_pages}
+clans_clans_title: Clans publics
+clans_clans_site: Page {page} sur {total_pages}
+clans_clans_requiredTrophies: "Trophées requis: {trophies}"
+clans_clans_join: "[Rejoindre le clan](<{url}>)"
+clans_clans_members: "Membres: {count}"
+clans_clans_isFamilyFriendly: "Adapté aux familles"
+clansearch_command_name: rechercheclan
+clansearch_command_description: Recherchez un clan dans Clash Of Clans.
+clansearch_option_mcp_name: points-minimum-clan
+clansearch_option_mcp_description: Les trophées minimum qu'un clan doit avoir.
+clansearch_option_mcl_name: niveau-minimum-clan
+clansearch_option_mcl_description: Le niveau minimum qu'un clan doit avoir.
+clansearch_option_mm_name: membres-minimum
+clansearch_option_mm_description: Le nombre minimum de membres qu'un clan doit avoir.
+clansearch_option_mx_name: membres-maximum
+clansearch_option_mx_description: Le nombre maximum de membres qu'un clan peut avoir.
+compare_command_name: comparer
+compare_command_description: Comparez deux joueurs dans Clash Of Clans.
+compare_option_playertag1_name: tag-joueur-1
+compare_option_playertag2_name: tag-joueur-2
+compare_option_playertag1_description: Le tag du premier joueur que vous souhaitez comparer.
+compare_option_playertag2_description: Le tag du deuxième joueur que vous souhaitez comparer.
+compare_embed_title: "Comparaison de joueurs"
+compare_embed_description: "{player1} vs {player2}"
+compare_embed_TownHallLevel: Hôtel de ville
+compare_embed_ExpLevel: Niveau d'expérience
+compare_embed_currectTrophies: Trophées actuels
+compare_embed_bestTrophies: Meilleurs trophées
+compare_embed_warStars: Étoiles de guerre
+compare_embed_current_donations: "Dons actuels ({emoji1}/{emoji2})"
+compare_embed_total_donations: "Dons totaux"

@@ -1,0 +1,148 @@
+general_unknown: 알 수 없음
+api_error_400_embed_title: "잘못된 요청"
+api_error_400_embed_description: "플레이어 태그에 잘못된 문자가 포함되어 있어 처리할 수 없습니다."
+api_error_403_embed_title: "접근 거부됨"
+api_error_403_embed_description: "플레이어의 계정을 사용할 수 없습니다."
+api_error_404_embed_title: "플레이어를 찾을 수 없습니다."
+api_error_404_embed_description: Clash of Clans 프로필에서 플레이어 ID를 찾으십시오.
+api_error_404_account_embed_title: "{emoji} 계정을 찾을 수 없습니다"
+api_error_404_account_embed_description: 입력한 **태그** 또는 **API 토큰**이 올바르지 않습니다.
+api_error_404_clans_embed_title: "클랜을 찾을 수 없습니다."
+api_error_404_clans_embed_description: "클랜 태그에 잘못된 문자가 포함되어 있어 처리할 수 없습니다."
+api_error_429_embed_title: "요청이 너무 많습니다"
+api_error_429_embed_description: "Clash of Clans 서버가 과부하 상태입니다. 나중에 다시 시도하십시오."
+api_error_500_embed_title: "내부 서버 오류"
+api_error_500_embed_description: "예기치 않은 오류가 발생했습니다. 나중에 다시 시도하십시오."
+api_error_503_embed_title: "서버를 사용할 수 없습니다"
+api_error_503_embed_description: "Clash of Clans 서버를 현재 사용할 수 없습니다. 나중에 다시 시도하십시오."
+about_command_name: about
+about_command_description: 봇에 대한 정보를 표시합니다.
+about_embed_author_name: 나에 대해
+about_embed_general_title: 일반
+about_embed_general_guilds: 서버
+about_embed_general_installs: 설치
+about_embed_cmds_title: "사용된 명령:"
+about_embed_shards_shard: 샤드
+about_embed_shards_current: 이 서버는 샤드 {shard_id}에 있습니다.
+players_command_name: 플레이어 정보
+players_command_description: Clash Of Clans 플레이어에 대한 정보를 표시합니다.
+players_option_playertag_name: 플레이어 태그
+players_option_user_name: 디스코드 계정
+players_option_playertag_description: 표시하려는 플레이어의 태그입니다.
+players_option_user_description: 표시하려는 플레이어 프로필의 디스코드 계정입니다.
+players_select_option_placeholder: 카테고리 선택
+players_select_option_general_name: 일반
+players_select_option_general_description: 플레이어에 대한 일반 정보를 표시합니다.
+players_select_option_clan_name: 클랜
+players_select_option_clan_description: 플레이어의 클랜에 대한 정보를 표시합니다.
+players_select_option_achievements_name: 업적
+players_select_option_achievements_description: 플레이어의 업적을 표시합니다.
+players_select_option_troops_name: 부대
+players_select_option_troops_description: 플레이어의 부대에 대한 정보를 표시합니다.
+players_general_townHallLevel: 타운홀 레벨
+players_general_expLevel: 경험 레벨
+players_general_level: 레벨
+player_general_league: 리그
+players_general_currectTrophies: 현재 트로피
+players_general_bestTrophies: 최고 트로피
+players_general_fight: 전투
+players_general_warstars: 전쟁 별
+players_general_attackWins: 공격 승리
+players_general_defenseWins: 방어 승리
+players_general_donations: 기부
+players_general_troopsDonated: 기부된 부대
+players_general_troopsReceived: 받은 부대
+players_general_totalDonations: 총 기부
+players_clan_clanLevel: 클랜 레벨
+players_clan_role: 역할
+players_clan_role_leader: 리더
+players_clan_role_coleader: 공동 리더
+players_clan_role_elder: 장로
+players_clan_role_member: 멤버
+players_clanCapitalContributions: 클랜 수도 기여
+players_clan_FullClanInfo: 전체 클랜 정보
+players_achievements_title: "{name}의 업적"
+players_achievements_site: 페이지 {page} / {total_pages}
+players_error_invalid_syntax_title: 플레이어를 찾을 수 없습니다
+players_error_invalid_syntax_description: "유효한 플레이어 태그를 입력하거나 `/account`로 계정을 연결하십시오"
+players_error_not_linked_title: 계정이 연결되지 않았습니다
+players_error_not_linked_description: "{name}은 아직 계정을 연결하지 않았습니다."
+player_troops_title: "{name}의 부대"
+player_troops_level: "레벨 **{level}/{max_level}**"
+player_troops_village_home: 마을
+player_troops_village_builderBase: 빌더 기지
+account_command_name: 계정
+account_command_description: Clash Of Clans 계정에 대한 정보를 표시합니다.
+account_embed_author: "{name}의 계정"
+account_embed_title: "{emoji} 등록된 Clash of Clans 계정이 없습니다"
+account_embed_description: Clash of Clans 계정을 연결하려면 `프로필 태그`와 `API 토큰`이 필요합니다
+account_embed_abbreviation_title: "프로필 태그"
+account_embed_abbreviation_description: 'Clash of Clans **프로필** {emoji}로 이동하십시오. 이름 아래에 `#`가 있으며 그 뒤에 문자가 나옵니다. 예: `#ABCDEFGH`'
+account_embed_token_title: "API 토큰"
+account_embed_token_description: "설정 **{emoji}**을 열고 **추가 설정** 버튼을 누릅니다. 아래로 스크롤하여 **API 토큰** 아래의 **표시**를 누릅니다. 토큰이 표시되면 여기에 입력하거나 **복사** 버튼을 누릅니다."
+account_button_verify_label: 로그인
+account_modal_verify_title: 계정 확인
+account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
+account_modal_verify_token_description: 8자리 코드
+account_modal_verify_embed_title: "{emoji} 계정이 성공적으로 등록되었습니다"
+account_modal_verify_embed_description: 프로필을 보려면 `/spielerinfo`를 사용하십시오.
+account_embed_verified_title: "{emoji} 계정이 이미 등록되어 있습니다"
+account_embed_verified_description: 프로필을 보려면 `/spielerinfo`를 사용하십시오.
+account_button_reset_label: 로그아웃
+account_button_reset_title: "{emoji} 성공적으로 로그아웃되었습니다"
+clans_command_name: 클랜 정보
+clans_command_description: Clash Of Clans의 클랜에 대한 정보를 표시합니다.
+clans_option_clantag_name: 클랜 태그
+clans_option_clantag_description: 표시하려는 클랜의 태그입니다.
+clans_select_option_general_name: 일반
+clans_select_option_general_description: 클랜에 대한 일반 정보를 표시합니다.
+clans_select_option_placeholder: 카테고리 선택
+clans_select_option_members_name: 멤버
+clans_select_option_members_description: 클랜 멤버에 대한 정보를 표시합니다.
+clans_general_general: 일반 정보
+clans_general_general_level: "{emoji} 레벨: {level}"
+clans_general_general_members: "{emoji} 멤버: {members}"
+clans_general_general_isFamilyFriendly: "{emoji} 가족 친화적"
+clans_general_location: 위치
+clans_general_stats: 통계
+clans_general_stats_clanPoints: "{emoji} 클랜 포인트: {points}"
+clans_general_stats_clanBuilderBasePoints: "{emoji} 빌더 기지 포인트: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} 클랜 수도 트로피: {points}"
+clans_general_clanwar: 클랜 전쟁
+clans_general_warWinStreak: "{emoji} 연승: {streak}"
+clans_general_warWins: "{emoji} 전쟁 승리: {wins}"
+clans_general_warTies: "{emoji} 무승부: {ties}"
+clans_general_warLosses: "{emoji} 패배: {losses}"
+clans_members_title: 멤버 ({count})
+clans_members_site: 페이지 {page} / {total_pages}
+clans_clans_title: 공개 클랜
+clans_clans_site: 페이지 {page} / {total_pages}
+clans_clans_requiredTrophies: "필요한 트로피: {trophies}"
+clans_clans_join: "[클랜에 가입](<{url}>)"
+clans_clans_members: "멤버: {count}"
+clans_clans_isFamilyFriendly: "가족 친화적"
+clansearch_command_name: 클랜 검색
+clansearch_command_description: Clash Of Clans에서 클랜을 검색합니다.
+clansearch_option_mcp_name: 최소 클랜 포인트
+clansearch_option_mcp_description: 클랜이 가져야 하는 최소 트로피.
+clansearch_option_mcl_name: 최소 클랜 레벨
+clansearch_option_mcl_description: 클랜이 가져야 하는 최소 레벨.
+clansearch_option_mm_name: 최소 멤버 수
+clansearch_option_mm_description: 클랜이 가져야 하는 최소 멤버 수.
+clansearch_option_mx_name: 최대 멤버 수
+clansearch_option_mx_description: 클랜이 가질 수 있는 최대 멤버 수.
+compare_command_name: 비교
+compare_command_description: Clash Of Clans에서 두 플레이어를 비교합니다.
+compare_option_playertag1_name: 플레이어 태그 1
+compare_option_playertag2_name: 플레이어 태그 2
+compare_option_playertag1_description: 비교하려는 첫 번째 플레이어의 태그입니다.
+compare_option_playertag2_description: 비교하려는 두 번째 플레이어의 태그입니다.
+compare_embed_title: "플레이어 비교"
+compare_embed_description: "{player1} vs {player2}"
+compare_embed_TownHallLevel: 타운홀 레벨
+compare_embed_ExpLevel: 경험 레벨
+compare_embed_currectTrophies: 현재 트로피
+compare_embed_bestTrophies: 최고 트로피
+compare_embed_warStars: 전쟁 별
+compare_embed_current_donations: "현재 기부 ({emoji1}/{emoji2})"
+compare_embed_total_donations: "총 기부"

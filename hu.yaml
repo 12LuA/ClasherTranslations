@@ -1,0 +1,148 @@
+general_unknown: Ismeretlen
+api_error_400_embed_title: "Érvénytelen kérés"
+api_error_400_embed_description: "A játékos címke érvénytelen karaktereket tartalmaz, és nem lehet feldolgozni."
+api_error_403_embed_title: "Hozzáférés megtagadva"
+api_error_403_embed_description: "A játékos fiókja nem elérhető."
+api_error_404_embed_title: "A játékos nem található."
+api_error_404_embed_description: Találd meg a játékos azonosítódat a Clash of Clans profilodban.
+api_error_404_account_embed_title: "{emoji} Fiók nem található"
+api_error_404_account_embed_description: Az általad megadott **címke** vagy **API token** nem helyes.
+api_error_404_clans_embed_title: "A klán nem található."
+api_error_404_clans_embed_description: "A klán címke érvénytelen karaktereket tartalmaz, és nem lehet feldolgozni."
+api_error_429_embed_title: "Túl sok kérés"
+api_error_429_embed_description: "A Clash of Clans szerver túlterhelt. Kérlek, próbáld újra később."
+api_error_500_embed_title: "Belső szerverhiba"
+api_error_500_embed_description: "Váratlan hiba történt. Kérlek, próbáld újra később."
+api_error_503_embed_title: "A szerver nem elérhető"
+api_error_503_embed_description: "A Clash of Clans szerver jelenleg nem elérhető. Kérlek, próbáld újra később."
+about_command_name: about
+about_command_description: Információkat jelenít meg a botról.
+about_embed_author_name: Rólam
+about_embed_general_title: Általános
+about_embed_general_guilds: Szerverek
+about_embed_general_installs: Telepítések
+about_embed_cmds_title: "Használt parancsok:"
+about_embed_shards_shard: Shard
+about_embed_shards_current: Ez a szerver a {shard_id} shardon van.
+players_command_name: játékos-információ
+players_command_description: Információkat jelenít meg egy Clash Of Clans játékosról.
+players_option_playertag_name: játékos-címke
+players_option_user_name: discord-fiók
+players_option_playertag_description: A játékos címkéje, akit meg szeretnél nézni.
+players_option_user_description: A Discord fiók, amelynek játékos profilját meg szeretnéd nézni.
+players_select_option_placeholder: Válassz kategóriát
+players_select_option_general_name: Általános
+players_select_option_general_description: Általános információkat jelenít meg a játékosról.
+players_select_option_clan_name: Klán
+players_select_option_clan_description: Információkat jelenít meg a játékos klánjáról.
+players_select_option_achievements_name: Eredmények
+players_select_option_achievements_description: A játékos eredményeit jeleníti meg.
+players_select_option_troops_name: Csapatok
+players_select_option_troops_description: Információkat jelenít meg a játékos csapatairól.
+players_general_townHallLevel: Városháza szint
+players_general_expLevel: Tapasztalati szint
+players_general_level: Szint
+player_general_league: Liga
+players_general_currectTrophies: jelenlegi trófeák
+players_general_bestTrophies: legjobb trófeák
+players_general_fight: Harc
+players_general_warstars: Háborús csillagok
+players_general_attackWins: Támadás győzelmek
+players_general_defenseWins: Védekezés győzelmek
+players_general_donations: Adományok
+players_general_troopsDonated: Adományozott csapatok
+players_general_troopsReceived: Kapott csapatok
+players_general_totalDonations: Összes adomány
+players_clan_clanLevel: Klán szint
+players_clan_role: Szerep
+players_clan_role_leader: Vezető
+players_clan_role_coleader: Tárvezető
+players_clan_role_elder: Idősebb
+players_clan_role_member: Tag
+players_clanCapitalContributions: Klán főváros hozzájárulások
+players_clan_FullClanInfo: Teljes klán információk
+players_achievements_title: "{name} eredményei"
+players_achievements_site: Oldal {page} / {total_pages}
+players_error_invalid_syntax_title: A játékos nem található
+players_error_invalid_syntax_description: "Adj meg egy érvényes játékos címkét vagy linkeld a fiókodat a `/account` paranccsal"
+players_error_not_linked_title: A fiók nincs linkelve
+players_error_not_linked_description: "{name} még nem linkelte a fiókját."
+player_troops_title: "{name} csapatai"
+player_troops_level: "Szint **{level}/{max_level}**"
+player_troops_village_home: Falu
+player_troops_village_builderBase: Építő bázis
+account_command_name: fiók
+account_command_description: Információkat jelenít meg a Clash Of Clans fiókoddal kapcsolatban.
+account_embed_author: "{name} fiókja"
+account_embed_title: "{emoji} Nincs regisztrált Clash of Clans fiók"
+account_embed_description: A Clash of Clans fiókod linkeléséhez szükséged van a `Profil címkére` és az `API tokenre`
+account_embed_abbreviation_title: "Profil címke"
+account_embed_abbreviation_description: 'Lépj a Clash of Clans **profilodra** {emoji}. A neved alatt találsz egy `#` jelet, amelyet betűk követnek. pl.: `#ABCDEFGH`'
+account_embed_token_title: "API token"
+account_embed_token_description: "Nyisd meg a **Beállításokat** {emoji} és nyomd meg a **További beállítások** gombot. Görgess le és nyomd meg a **Megjelenítés** gombot az **API token** alatt. Amint a token megjelenik, beírhatod ide vagy nyomd meg a **Másolás** gombot."
+account_button_verify_label: Bejelentkezés
+account_modal_verify_title: Fiók ellenőrzés
+account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
+account_modal_verify_token_description: 8-jegyű kód
+account_modal_verify_embed_title: "{emoji} A fiók sikeresen regisztrálva"
+account_modal_verify_embed_description: Használd a `/spielerinfo` parancsot a profilod megtekintéséhez.
+account_embed_verified_title: "{emoji} A fiókod már regisztrálva van"
+account_embed_verified_description: Használd a `/spielerinfo` parancsot a profilod megtekintéséhez.
+account_button_reset_label: Kijelentkezés
+account_button_reset_title: "{emoji} Sikeresen kijelentkeztél"
+clans_command_name: klán-információ
+clans_command_description: Információkat jelenít meg egy Clash Of Clans klánról.
+clans_option_clantag_name: klán-címke
+clans_option_clantag_description: A klán címkéje, amelyet meg szeretnél nézni.
+clans_select_option_general_name: Általános
+clans_select_option_general_description: Általános információkat jelenít meg a klánról.
+clans_select_option_placeholder: Válassz kategóriát
+clans_select_option_members_name: Tagok
+clans_select_option_members_description: Információkat jelenít meg a klán tagjairól.
+clans_general_general: Általános információk
+clans_general_general_level: "{emoji} Szint: {level}"
+clans_general_general_members: "{emoji} Tagok: {members}"
+clans_general_general_isFamilyFriendly: "{emoji} Családbarát"
+clans_general_location: Helyszín
+clans_general_stats: Statisztika
+clans_general_stats_clanPoints: "{emoji} Klán pontok: {points}"
+clans_general_stats_clanBuilderBasePoints: "{emoji} Építő bázis pontok: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} Klán főváros trófeák: {points}"
+clans_general_clanwar: Klánháború
+clans_general_warWinStreak: "{emoji} Győzelmi sorozat: {streak}"
+clans_general_warWins: "{emoji} Háborús győzelmek: {wins}"
+clans_general_warTies: "{emoji} Döntetlenek: {ties}"
+clans_general_warLosses: "{emoji} Vereségek: {losses}"
+clans_members_title: Tagok ({count})
+clans_members_site: Oldal {page} / {total_pages}
+clans_clans_title: Nyilvános klánok
+clans_clans_site: Oldal {page} / {total_pages}
+clans_clans_requiredTrophies: "Szükséges trófeák: {trophies}"
+clans_clans_join: "[Csatlakozz a klánhoz](<{url}>)"
+clans_clans_members: "Tagok: {count}"
+clans_clans_isFamilyFriendly: "Családbarát"
+clansearch_command_name: klán-keresés
+clansearch_command_description: Klán keresése a Clash Of Clans játékban.
+clansearch_option_mcp_name: minimális-klán-pontok
+clansearch_option_mcp_description: A minimális trófeák, amelyekkel egy klánnak rendelkeznie kell.
+clansearch_option_mcl_name: minimális-klán-szint
+clansearch_option_mcl_description: A minimális szint, amellyel egy klánnak rendelkeznie kell.
+clansearch_option_mm_name: minimális-tagok
+clansearch_option_mm_description: A minimális tagok száma, amellyel egy klánnak rendelkeznie kell.
+clansearch_option_mx_name: maximális-tagok
+clansearch_option_mx_description: A maximális tagok száma, amellyel egy klán rendelkezhet.
+compare_command_name: összehasonlítás
+compare_command_description: Két játékos összehasonlítása a Clash Of Clans játékban.
+compare_option_playertag1_name: játékos-címke-1
+compare_option_playertag2_name: játékos-címke-2
+compare_option_playertag1_description: Az első játékos címkéje, akit össze szeretnél hasonlítani.
+compare_option_playertag2_description: A második játékos címkéje, akit össze szeretnél hasonlítani.
+compare_embed_title: "Játékosok összehasonlítása"
+compare_embed_description: "{player1} vs {player2}"
+compare_embed_TownHallLevel: Városháza szint
+compare_embed_ExpLevel: Tapasztalati szint
+compare_embed_currectTrophies: Jelenlegi trófeák
+compare_embed_bestTrophies: Legjobb trófeák
+compare_embed_warStars: Háborús csillagok
+compare_embed_current_donations: "Jelenlegi adományok ({emoji1}/{emoji2})"
+compare_embed_total_donations: "Összes adomány"

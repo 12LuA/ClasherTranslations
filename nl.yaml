@@ -1,0 +1,148 @@
+general_unknown: Onbekend
+api_error_400_embed_title: "Ongeldig verzoek"
+api_error_400_embed_description: "De spelerstag bevat ongeldige tekens en kan niet worden verwerkt."
+api_error_403_embed_title: "Toegang geweigerd"
+api_error_403_embed_description: "Het account van de speler is niet beschikbaar."
+api_error_404_embed_title: "Speler niet gevonden."
+api_error_404_embed_description: Zoek je spelers-ID in je Clash of Clans-profiel.
+api_error_404_account_embed_title: "{emoji} Account niet gevonden"
+api_error_404_account_embed_description: De ingevoerde **tag** of **API-token** is niet correct.
+api_error_404_clans_embed_title: "Clan niet gevonden."
+api_error_404_clans_embed_description: "De clantag bevat ongeldige tekens en kan niet worden verwerkt."
+api_error_429_embed_title: "Te veel verzoeken"
+api_error_429_embed_description: "De Clash of Clans-server is overbelast. Probeer het later opnieuw."
+api_error_500_embed_title: "Interne serverfout"
+api_error_500_embed_description: "Er is een onverwachte fout opgetreden. Probeer het later opnieuw."
+api_error_503_embed_title: "Server niet beschikbaar"
+api_error_503_embed_description: "De Clash of Clans-server is momenteel niet beschikbaar. Probeer het later opnieuw."
+about_command_name: about
+about_command_description: Toont informatie over de bot.
+about_embed_author_name: Over mij
+about_embed_general_title: Algemeen
+about_embed_general_guilds: Servers
+about_embed_general_installs: Installaties
+about_embed_cmds_title: "Gebruikte commando's:"
+about_embed_shards_shard: Shard
+about_embed_shards_current: Deze server bevindt zich op shard {shard_id}.
+players_command_name: speler-info
+players_command_description: Toont informatie over een Clash Of Clans-speler.
+players_option_playertag_name: speler-tag
+players_option_user_name: discord-account
+players_option_playertag_description: De tag van de speler die je wilt bekijken.
+players_option_user_description: Het Discord-account waarvan je het spelersprofiel wilt bekijken.
+players_select_option_placeholder: Kies een categorie
+players_select_option_general_name: Algemeen
+players_select_option_general_description: Toont algemene informatie over de speler.
+players_select_option_clan_name: Clan
+players_select_option_clan_description: Toont informatie over de clan van de speler.
+players_select_option_achievements_name: Prestaties
+players_select_option_achievements_description: Toont de prestaties van de speler.
+players_select_option_troops_name: Troepen
+players_select_option_troops_description: Toont informatie over de troepen van de speler.
+players_general_townHallLevel: Stadhuisniveau
+players_general_expLevel: Ervaringsniveau
+players_general_level: Niveau
+player_general_league: Liga
+players_general_currectTrophies: huidige trofeeën
+players_general_bestTrophies: beste trofeeën
+players_general_fight: Gevecht
+players_general_warstars: Oorlogsster
+players_general_attackWins: Aanvalsoverwinningen
+players_general_defenseWins: Verdedigingsoverwinningen
+players_general_donations: Donaties
+players_general_troopsDonated: Gedoneerde troepen
+players_general_troopsReceived: Ontvangen troepen
+players_general_totalDonations: Totale donaties
+players_clan_clanLevel: Clanniveau
+players_clan_role: Rol
+players_clan_role_leader: Leider
+players_clan_role_coleader: Co-leider
+players_clan_role_elder: Oudere
+players_clan_role_member: Lid
+players_clanCapitalContributions: Bijdragen aan de clanhoofdstad
+players_clan_FullClanInfo: Volledige claninformatie
+players_achievements_title: Prestaties van {name}
+players_achievements_site: Pagina {page} van {total_pages}
+players_error_invalid_syntax_title: Speler niet gevonden
+players_error_invalid_syntax_description: "Voer een geldige spelerstag in of koppel je account met `/account`"
+players_error_not_linked_title: Account niet gekoppeld
+players_error_not_linked_description: "{name} heeft zijn account nog niet gekoppeld."
+player_troops_title: Troepen van {name}
+player_troops_level: "Niveau **{level}/{max_level}**"
+player_troops_village_home: Dorp
+player_troops_village_builderBase: Bouwersbasis
+account_command_name: account
+account_command_description: Toont informatie over je Clash Of Clans-account.
+account_embed_author: Account van {name}
+account_embed_title: "{emoji} Geen geregistreerd Clash of Clans-account"
+account_embed_description: Om je Clash of Clans-account te koppelen, heb je je `Profieltag` en `API-token` nodig
+account_embed_abbreviation_title: "Profieltag"
+account_embed_abbreviation_description: 'Ga naar je Clash of Clans **profiel** {emoji}. Onder je naam vind je een `#` gevolgd door letters. bijv.: `#ABCDEFGH`'
+account_embed_token_title: "API-token"
+account_embed_token_description: "Open **Instellingen** {emoji} en druk op de knop **Meer instellingen**. Scroll naar beneden en druk op **Weergeven** onder **API-token**. Zodra je token wordt weergegeven, kun je deze hier invoeren of op de knop **Kopiëren** drukken."
+account_button_verify_label: Inloggen
+account_modal_verify_title: Accountverificatie
+account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
+account_modal_verify_token_description: 8-cijferige code
+account_modal_verify_embed_title: "{emoji} Account succesvol geregistreerd"
+account_modal_verify_embed_description: Gebruik `/spielerinfo` om je profiel te bekijken.
+account_embed_verified_title: "{emoji} Je account is al geregistreerd"
+account_embed_verified_description: Gebruik `/spielerinfo` om je profiel te bekijken.
+account_button_reset_label: Uitloggen
+account_button_reset_title: "{emoji} Je bent succesvol uitgelogd"
+clans_command_name: clan-info
+clans_command_description: Toont informatie over een clan in Clash Of Clans.
+clans_option_clantag_name: clan-tag
+clans_option_clantag_description: De tag van de clan die je wilt bekijken.
+clans_select_option_general_name: Algemeen
+clans_select_option_general_description: Toont algemene informatie over de clan.
+clans_select_option_placeholder: Kies een categorie
+clans_select_option_members_name: Leden
+clans_select_option_members_description: Toont informatie over de leden van de clan.
+clans_general_general: Algemene informatie
+clans_general_general_level: "{emoji} Niveau: {level}"
+clans_general_general_members: "{emoji} Leden: {members}"
+clans_general_general_isFamilyFriendly: "{emoji} Gezinsvriendelijk"
+clans_general_location: Locatie
+clans_general_stats: Statistieken
+clans_general_stats_clanPoints: "{emoji} Clanpunten: {points}"
+clans_general_stats_clanBuilderBasePoints: "{emoji} Bouwersbasispunten: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} Clanhoofdstad trofeeën: {points}"
+clans_general_clanwar: Clanoorlog
+clans_general_warWinStreak: "{emoji} Winstreeks: {streak}"
+clans_general_warWins: "{emoji} Oorlogsoverwinningen: {wins}"
+clans_general_warTies: "{emoji} Gelijkspelen: {ties}"
+clans_general_warLosses: "{emoji} Verliezen: {losses}"
+clans_members_title: Leden ({count})
+clans_members_site: Pagina {page} van {total_pages}
+clans_clans_title: Openbare clans
+clans_clans_site: Pagina {page} van {total_pages}
+clans_clans_requiredTrophies: "Vereiste trofeeën: {trophies}"
+clans_clans_join: "[Word lid van de clan](<{url}>)"
+clans_clans_members: "Leden: {count}"
+clans_clans_isFamilyFriendly: "Gezinsvriendelijk"
+clansearch_command_name: clan-zoeken
+clansearch_command_description: Zoek een clan in Clash Of Clans.
+clansearch_option_mcp_name: minimum-clanpunten
+clansearch_option_mcp_description: Het minimum aantal trofeeën dat een clan moet hebben.
+clansearch_option_mcl_name: minimum-clanniveau
+clansearch_option_mcl_description: Het minimum niveau dat een clan moet hebben.
+clansearch_option_mm_name: minimum-leden
+clansearch_option_mm_description: Het minimum aantal leden dat een clan moet hebben.
+clansearch_option_mx_name: maximum-leden
+clansearch_option_mx_description: Het maximum aantal leden dat een clan kan hebben.
+compare_command_name: vergelijken
+compare_command_description: Vergelijk twee spelers in Clash Of Clans.
+compare_option_playertag1_name: speler-tag-1
+compare_option_playertag2_name: speler-tag-2
+compare_option_playertag1_description: De tag van de eerste speler die je wilt vergelijken.
+compare_option_playertag2_description: De tag van de tweede speler die je wilt vergelijken.
+compare_embed_title: "Spelersvergelijking"
+compare_embed_description: "{player1} vs {player2}"
+compare_embed_TownHallLevel: Stadhuisniveau
+compare_embed_ExpLevel: Ervaringsniveau
+compare_embed_currectTrophies: Huidige trofeeën
+compare_embed_bestTrophies: Beste trofeeën
+compare_embed_warStars: Oorlogsster
+compare_embed_current_donations: "Huidige donaties ({emoji1}/{emoji2})"
+compare_embed_total_donations: "Totale donaties"

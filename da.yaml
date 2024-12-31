@@ -1,0 +1,148 @@
+general_unknown: Ukendt
+api_error_400_embed_title: "Forkert anmodning"
+api_error_400_embed_description: "Spillerens tag indeholder ugyldige tegn og kunne ikke behandles."
+api_error_403_embed_title: "Adgang nægtet"
+api_error_403_embed_description: "Spillerens konto er ikke tilgængelig."
+api_error_404_embed_title: "Spiller ikke fundet."
+api_error_404_embed_description: "Du kan finde dit spiller-ID i din Clash of Clans-profil."
+api_error_404_account_embed_title: "{emoji} Konto ikke fundet"
+api_error_404_account_embed_description: "Den **forkortelse** eller **API-token**, du har angivet, er forkert."
+api_error_404_clans_embed_title: "Klan ikke fundet."
+api_error_404_clans_embed_description: "Klanens tag indeholder ugyldige tegn og kunne ikke behandles."
+api_error_429_embed_title: "For mange anmodninger"
+api_error_429_embed_description: "Clash of Clans-serveren er i øjeblikket overbelastet. Prøv igen senere."
+api_error_500_embed_title: "Intern serverfejl"
+api_error_500_embed_description: "Der opstod en uventet fejl. Prøv igen senere."
+api_error_503_embed_title: "Server utilgængelig"
+api_error_503_embed_description: "Clash of Clans-serveren er i øjeblikket utilgængelig. Prøv igen senere."
+about_command_name: om
+about_command_description: Viser information om botten.
+about_embed_author_name: Om mig
+about_embed_general_title: Generelt
+about_embed_general_guilds: Servere
+about_embed_general_installs: Installationer
+about_embed_cmds_title: "Brugte kommandoer:"
+about_embed_shards_shard: Shard
+about_embed_shards_current: Denne server er på shard {shard_id}.
+players_command_name: spillerinfo
+players_command_description: Viser information om en Clash Of Clans-spiller.
+players_option_playertag_name: spiller-tag
+players_option_user_name: discord-konto
+players_option_playertag_description: Tagget på den spiller, du vil vise.
+players_option_user_description: Discord-kontoen, hvis spillerprofil du vil vise.
+players_select_option_placeholder: Vælg en kategori
+players_select_option_general_name: Generelt
+players_select_option_general_description: Viser generel information om spilleren.
+players_select_option_clan_name: Klan
+players_select_option_clan_description: Viser information om spillerens klan.
+players_select_option_achievements_name: Præstationer
+players_select_option_achievements_description: Viser spillerens præstationer.
+players_select_option_troops_name: Tropper
+players_select_option_troops_description: Viser information om spillerens tropper.
+players_general_townHallLevel: Rådhus
+players_general_expLevel: Erfaring
+players_general_level: Niveau
+player_general_league: Liga
+players_general_currectTrophies: Nuværende trofæer
+players_general_bestTrophies: Bedste trofæer
+players_general_fight: Kamp
+players_general_warstars: Krigsstjerner
+players_general_attackWins: Angrebssejre
+players_general_defenseWins: Forsvarssejre
+players_general_donations: Donationer
+players_general_troopsDonated: Donerede tropper
+players_general_troopsReceived: Modtagne tropper
+players_general_totalDonations: Samlede donationer
+players_clan_clanLevel: Klan niveau
+players_clan_role: Rolle
+players_clan_role_leader: Leder
+players_clan_role_coleader: Medleder
+players_clan_role_elder: Ældste
+players_clan_role_member: Medlem
+players_clanCapitalContributions: Klanhovedstad bidrag
+players_clan_FullClanInfo: Fuld klaninformation
+players_achievements_title: Præstationer af {name}
+players_achievements_site: Side {page} af {total_pages}
+players_error_invalid_syntax_title: Spiller ikke fundet
+players_error_invalid_syntax_description: "Angiv et gyldigt spiller-tag eller link din konto med `/account`"
+players_error_not_linked_title: Konto ikke linket
+players_error_not_linked_description: "{name} har endnu ikke linket deres konto."
+player_troops_title: Tropper af {name}
+player_troops_level: "Niveau **{level}/{max_level}**"
+player_troops_village_home: Landsby
+player_troops_village_builderBase: Byggerbase
+account_command_name: konto
+account_command_description: Viser information om din Clash Of Clans-konto.
+account_embed_author: Konto af {name}
+account_embed_title: "{emoji} Ingen registreret Clash of Clans-konto"
+account_embed_description: For at linke din Clash of Clans-konto skal du bruge din `profilforkortelse` og din `API-token`
+account_embed_abbreviation_title: "Profilforkortelse"
+account_embed_abbreviation_description: 'Gå til din Clash of Clans **profil** {emoji}. Under dit navn finder du et `#` efterfulgt af bogstaver. f.eks.: `#ABCDEFGH`'
+account_embed_token_title: "API-token"
+account_embed_token_description: "Åbn **indstillingerne** {emoji} og tryk på knappen **Flere indstillinger**. Rul helt ned og tryk på **Vis** under **API-token**. Når din token vises, kan du skrive den her eller trykke på knappen **Kopiér**."
+account_button_verify_label: Log ind
+account_modal_verify_title: Bekræft konto
+account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
+account_modal_verify_token_description: 8-cifret kode
+account_modal_verify_embed_title: "{emoji} Kontoen er registreret"
+account_modal_verify_embed_description: Brug `/playerinfo` for at se din profil.
+account_embed_verified_title: "{emoji} Din konto er allerede registreret"
+account_embed_verified_description: Brug `/playerinfo` for at se din profil.
+account_button_reset_label: Log ud
+account_button_reset_title: "{emoji} Du er logget ud"
+clans_command_name: klaninfo
+clans_command_description: Viser information om en klan i Clash Of Clans.
+clans_option_clantag_name: klan-tag
+clans_option_clantag_description: Tagget på den klan, du vil vise.
+clans_select_option_general_name: Generelt
+clans_select_option_general_description: Viser generel information om klanen.
+clans_select_option_placeholder: Vælg en kategori
+clans_select_option_members_name: Medlemmer
+clans_select_option_members_description: Viser information om klanmedlemmerne.
+clans_general_general: Generel information
+clans_general_general_level: "{emoji} Niveau: {level}"
+clans_general_general_members: "{emoji} Medlemmer: {members}"
+clans_general_general_isFamilyFriendly: "{emoji} Familievenlig"
+clans_general_location: Placering
+clans_general_stats: Statistik
+clans_general_stats_clanPoints: "{emoji} Klanpoint: {points}"
+clans_general_stats_clanBuilderBasePoints: "{emoji} Byggerbasepoint: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} Klanhovedstad trofæer: {points}"
+clans_general_clanwar: Klan krig
+clans_general_warWinStreak: "{emoji} Sejrsrække: {streak}"
+clans_general_warWins: "{emoji} Krigssejre: {wins}"
+clans_general_warTies: "{emoji} Krigsuafgjorte: {ties}"
+clans_general_warLosses: "{emoji} Tab: {losses}"
+clans_members_title: Medlemmer ({count})
+clans_members_site: Side {page} af {total_pages}
+clans_clans_title: Offentlige klaner
+clans_clans_site: Side {page} af {total_pages}
+clans_clans_requiredTrophies: "Krævede trofæer: {trophies}"
+clans_clans_join: "[Deltag i klanen](<{url}>)"
+clans_clans_members: "Medlemmer: {count}"
+clans_clans_isFamilyFriendly: "Familievenlig"
+clansearch_command_name: klansøgning
+clansearch_command_description: Søg efter en klan i Clash Of Clans.
+clansearch_option_mcp_name: minimum-klanpoint
+clansearch_option_mcp_description: De minimum trofæer, en klan skal have.
+clansearch_option_mcl_name: minimum-klanniveau
+clansearch_option_mcl_description: Det minimumsniveau, en klan skal have.
+clansearch_option_mm_name: minimum-medlemmer
+clansearch_option_mm_description: Det minimum antal medlemmer, en klan skal have.
+clansearch_option_mx_name: maksimum-medlemmer
+clansearch_option_mx_description: Det maksimum antal medlemmer, en klan kan have.
+compare_command_name: sammenlign
+compare_command_description: Sammenlign to spillere i Clash Of Clans.
+compare_option_playertag1_name: spiller-tag-1
+compare_option_playertag2_name: spiller-tag-2
+compare_option_playertag1_description: Tagget på den første spiller, du vil sammenligne.
+compare_option_playertag2_description: Tagget på den anden spiller, du vil sammenligne.
+compare_embed_title: "Spillersammenligning"
+compare_embed_description: "{player1} vs {player2}"
+compare_embed_TownHallLevel: Rådhus
+compare_embed_ExpLevel: Erfaring niveau
+compare_embed_currectTrophies: Nuværende trofæer
+compare_embed_bestTrophies: Bedste trofæer
+compare_embed_warStars: Krigsstjerner
+compare_embed_current_donations: "Nuværende donationer ({emoji1}/{emoji2})"
+compare_embed_total_donations: "Samlede donationer"

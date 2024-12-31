@@ -1,0 +1,148 @@
+general_unknown: Necunoscut
+api_error_400_embed_title: "Cerere invalidă"
+api_error_400_embed_description: "Tag-ul jucătorului conține caractere invalide și nu poate fi procesat."
+api_error_403_embed_title: "Acces refuzat"
+api_error_403_embed_description: "Contul jucătorului nu este disponibil."
+api_error_404_embed_title: "Jucătorul nu a fost găsit."
+api_error_404_embed_description: Găsiți ID-ul jucătorului în profilul dvs. Clash of Clans.
+api_error_404_account_embed_title: "{emoji} Contul nu a fost găsit"
+api_error_404_account_embed_description: "**Tag-ul** sau **token-ul API** introdus nu este corect."
+api_error_404_clans_embed_title: "Clanul nu a fost găsit."
+api_error_404_clans_embed_description: "Tag-ul clanului conține caractere invalide și nu poate fi procesat."
+api_error_429_embed_title: "Prea multe cereri"
+api_error_429_embed_description: "Serverul Clash of Clans este supraîncărcat. Vă rugăm să încercați din nou mai târziu."
+api_error_500_embed_title: "Eroare internă a serverului"
+api_error_500_embed_description: "A apărut o eroare neașteptată. Vă rugăm să încercați din nou mai târziu."
+api_error_503_embed_title: "Serverul nu este disponibil"
+api_error_503_embed_description: "Serverul Clash of Clans nu este disponibil în acest moment. Vă rugăm să încercați din nou mai târziu."
+about_command_name: about
+about_command_description: Afișează informații despre bot.
+about_embed_author_name: Despre mine
+about_embed_general_title: General
+about_embed_general_guilds: Servere
+about_embed_general_installs: Instalări
+about_embed_cmds_title: "Comenzi utilizate:"
+about_embed_shards_shard: Shard
+about_embed_shards_current: Acest server se află pe shard-ul {shard_id}.
+players_command_name: informații-jucător
+players_command_description: Afișează informații despre un jucător Clash Of Clans.
+players_option_playertag_name: tag-jucător
+players_option_user_name: cont-discord
+players_option_playertag_description: Tag-ul jucătorului pe care doriți să-l vedeți.
+players_option_user_description: Contul Discord al cărui profil de jucător doriți să-l vedeți.
+players_select_option_placeholder: Selectați o categorie
+players_select_option_general_name: General
+players_select_option_general_description: Afișează informații generale despre jucător.
+players_select_option_clan_name: Clan
+players_select_option_clan_description: Afișează informații despre clanul jucătorului.
+players_select_option_achievements_name: Realizări
+players_select_option_achievements_description: Afișează realizările jucătorului.
+players_select_option_troops_name: Trupe
+players_select_option_troops_description: Afișează informații despre trupele jucătorului.
+players_general_townHallLevel: Nivelul primăriei
+players_general_expLevel: Nivelul de experiență
+players_general_level: Nivel
+player_general_league: Ligă
+players_general_currectTrophies: trofee curente
+players_general_bestTrophies: cele mai bune trofee
+players_general_fight: Luptă
+players_general_warstars: Stele de război
+players_general_attackWins: Victorii în atac
+players_general_defenseWins: Victorii în apărare
+players_general_donations: Donații
+players_general_troopsDonated: Trupe donate
+players_general_troopsReceived: Trupe primite
+players_general_totalDonations: Donații totale
+players_clan_clanLevel: Nivelul clanului
+players_clan_role: Rol
+players_clan_role_leader: Lider
+players_clan_role_coleader: Co-lider
+players_clan_role_elder: Bătrân
+players_clan_role_member: Membru
+players_clanCapitalContributions: Contribuții la capitala clanului
+players_clan_FullClanInfo: Informații complete despre clan
+players_achievements_title: Realizările lui {name}
+players_achievements_site: Pagina {page} din {total_pages}
+players_error_invalid_syntax_title: Jucătorul nu a fost găsit
+players_error_invalid_syntax_description: "Introduceți un tag de jucător valid sau conectați-vă contul cu `/account`"
+players_error_not_linked_title: Contul nu este conectat
+players_error_not_linked_description: "{name} nu și-a conectat încă contul."
+player_troops_title: Trupele lui {name}
+player_troops_level: "Nivel **{level}/{max_level}**"
+player_troops_village_home: Sat
+player_troops_village_builderBase: Baza constructorului
+account_command_name: cont
+account_command_description: Afișează informații despre contul dvs. Clash Of Clans.
+account_embed_author: Contul lui {name}
+account_embed_title: "{emoji} Niciun cont Clash of Clans înregistrat"
+account_embed_description: Pentru a vă conecta contul Clash of Clans, aveți nevoie de `Tag-ul profilului` și `Token-ul API`
+account_embed_abbreviation_title: "Tag-ul profilului"
+account_embed_abbreviation_description: 'Accesați **profilul** dvs. Clash of Clans {emoji}. Sub numele dvs. veți găsi un `#` urmat de litere. ex.: `#ABCDEFGH`'
+account_embed_token_title: "Token API"
+account_embed_token_description: "Deschideți **Setări** {emoji} și apăsați butonul **Mai multe setări**. Derulați în jos și apăsați **Afișare** sub **Token API**. Odată ce token-ul dvs. este afișat, îl puteți introduce aici sau apăsați butonul **Copiază**."
+account_button_verify_label: Conectare
+account_modal_verify_title: Verificare cont
+account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
+account_modal_verify_token_description: Cod de 8 cifre
+account_modal_verify_embed_title: "{emoji} Contul a fost înregistrat cu succes"
+account_modal_verify_embed_description: Utilizați `/spielerinfo` pentru a vedea profilul dvs.
+account_embed_verified_title: "{emoji} Contul dvs. este deja înregistrat"
+account_embed_verified_description: Utilizați `/spielerinfo` pentru a vedea profilul dvs.
+account_button_reset_label: Deconectare
+account_button_reset_title: "{emoji} V-ați deconectat cu succes"
+clans_command_name: informații-clan
+clans_command_description: Afișează informații despre un clan în Clash Of Clans.
+clans_option_clantag_name: tag-clan
+clans_option_clantag_description: Tag-ul clanului pe care doriți să-l vedeți.
+clans_select_option_general_name: General
+clans_select_option_general_description: Afișează informații generale despre clan.
+clans_select_option_placeholder: Selectați o categorie
+clans_select_option_members_name: Membri
+clans_select_option_members_description: Afișează informații despre membrii clanului.
+clans_general_general: Informații generale
+clans_general_general_level: "{emoji} Nivel: {level}"
+clans_general_general_members: "{emoji} Membri: {members}"
+clans_general_general_isFamilyFriendly: "{emoji} Prietenos cu familia"
+clans_general_location: Locație
+clans_general_stats: Statistici
+clans_general_stats_clanPoints: "{emoji} Puncte clan: {points}"
+clans_general_stats_clanBuilderBasePoints: "{emoji} Puncte baza constructorului: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} Trofee capitala clanului: {points}"
+clans_general_clanwar: Război de clan
+clans_general_warWinStreak: "{emoji} Seria de victorii: {streak}"
+clans_general_warWins: "{emoji} Victorii în război: {wins}"
+clans_general_warTies: "{emoji} Egaluri: {ties}"
+clans_general_warLosses: "{emoji} Înfrângeri: {losses}"
+clans_members_title: Membri ({count})
+clans_members_site: Pagina {page} din {total_pages}
+clans_clans_title: Clanuri publice
+clans_clans_site: Pagina {page} din {total_pages}
+clans_clans_requiredTrophies: "Trofee necesare: {trophies}"
+clans_clans_join: "[Alăturați-vă clanului](<{url}>)"
+clans_clans_members: "Membri: {count}"
+clans_clans_isFamilyFriendly: "Prietenos cu familia"
+clansearch_command_name: căutare-clan
+clansearch_command_description: Căutați un clan în Clash Of Clans.
+clansearch_option_mcp_name: puncte-minime-clan
+clansearch_option_mcp_description: Trofeele minime pe care un clan trebuie să le aibă.
+clansearch_option_mcl_name: nivel-minim-clan
+clansearch_option_mcl_description: Nivelul minim pe care un clan trebuie să-l aibă.
+clansearch_option_mm_name: membri-minimi
+clansearch_option_mm_description: Numărul minim de membri pe care un clan trebuie să-l aibă.
+clansearch_option_mx_name: membri-maximi
+clansearch_option_mx_description: Numărul maxim de membri pe care un clan poate să-l aibă.
+compare_command_name: comparare
+compare_command_description: Comparați doi jucători în Clash Of Clans.
+compare_option_playertag1_name: tag-jucător-1
+compare_option_playertag2_name: tag-jucător-2
+compare_option_playertag1_description: Tag-ul primului jucător pe care doriți să-l comparați.
+compare_option_playertag2_description: Tag-ul celui de-al doilea jucător pe care doriți să-l comparați.
+compare_embed_title: "Comparare jucători"
+compare_embed_description: "{player1} vs {player2}"
+compare_embed_TownHallLevel: Nivelul primăriei
+compare_embed_ExpLevel: Nivelul de experiență
+compare_embed_currectTrophies: Trofee curente
+compare_embed_bestTrophies: Cele mai bune trofee
+compare_embed_warStars: Stele de război
+compare_embed_current_donations: "Donații curente ({emoji1}/{emoji2})"
+compare_embed_total_donations: "Donații totale"

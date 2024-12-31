@@ -24,10 +24,10 @@ about_embed_general_installs: 설치
 about_embed_cmds_title: "사용된 명령:"
 about_embed_shards_shard: 샤드
 about_embed_shards_current: 이 서버는 샤드 {shard_id}에 있습니다.
-players_command_name: 플레이어 정보
+players_command_name: 플레이어정보
 players_command_description: Clash Of Clans 플레이어에 대한 정보를 표시합니다.
-players_option_playertag_name: 플레이어 태그
-players_option_user_name: 디스코드 계정
+players_option_playertag_name: 플레이어태그
+players_option_user_name: 디스코드계정
 players_option_playertag_description: 표시하려는 플레이어의 태그입니다.
 players_option_user_description: 표시하려는 플레이어 프로필의 디스코드 계정입니다.
 players_select_option_placeholder: 카테고리 선택
@@ -90,9 +90,9 @@ account_embed_verified_title: "{emoji} 계정이 이미 등록되어 있습니�
 account_embed_verified_description: 프로필을 보려면 `/spielerinfo`를 사용하십시오.
 account_button_reset_label: 로그아웃
 account_button_reset_title: "{emoji} 성공적으로 로그아웃되었습니다"
-clans_command_name: 클랜 정보
+clans_command_name: 클랜정보
 clans_command_description: Clash Of Clans의 클랜에 대한 정보를 표시합니다.
-clans_option_clantag_name: 클랜 태그
+clans_option_clantag_name: 클랜태그
 clans_option_clantag_description: 표시하려는 클랜의 태그입니다.
 clans_select_option_general_name: 일반
 clans_select_option_general_description: 클랜에 대한 일반 정보를 표시합니다.
@@ -121,20 +121,20 @@ clans_clans_requiredTrophies: "필요한 트로피: {trophies}"
 clans_clans_join: "[클랜에 가입](<{url}>)"
 clans_clans_members: "멤버: {count}"
 clans_clans_isFamilyFriendly: "가족 친화적"
-clansearch_command_name: 클랜 검색
+clansearch_command_name: 클랜검색
 clansearch_command_description: Clash Of Clans에서 클랜을 검색합니다.
-clansearch_option_mcp_name: 최소 클랜 포인트
+clansearch_option_mcp_name: 최소클랜포인트
 clansearch_option_mcp_description: 클랜이 가져야 하는 최소 트로피.
-clansearch_option_mcl_name: 최소 클랜 레벨
+clansearch_option_mcl_name: 최소클랜레벨
 clansearch_option_mcl_description: 클랜이 가져야 하는 최소 레벨.
-clansearch_option_mm_name: 최소 멤버 수
+clansearch_option_mm_name: 최소멤버수
 clansearch_option_mm_description: 클랜이 가져야 하는 최소 멤버 수.
-clansearch_option_mx_name: 최대 멤버 수
+clansearch_option_mx_name: 최대멤버수
 clansearch_option_mx_description: 클랜이 가질 수 있는 최대 멤버 수.
 compare_command_name: 비교
 compare_command_description: Clash Of Clans에서 두 플레이어를 비교합니다.
-compare_option_playertag1_name: 플레이어 태그 1
-compare_option_playertag2_name: 플레이어 태그 2
+compare_option_playertag1_name: 플레이어태그1
+compare_option_playertag2_name: 플레이어태그2
 compare_option_playertag1_description: 비교하려는 첫 번째 플레이어의 태그입니다.
 compare_option_playertag2_description: 비교하려는 두 번째 플레이어의 태그입니다.
 compare_embed_title: "플레이어 비교"

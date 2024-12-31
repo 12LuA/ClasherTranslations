@@ -1,0 +1,148 @@
+general_unknown: Nepoznato
+api_error_400_embed_title: "Loš zahtjev"
+api_error_400_embed_description: "Oznaka igrača sadrži nevažeće znakove i nije se mogla obraditi."
+api_error_403_embed_title: "Pristup odbijen"
+api_error_403_embed_description: "Račun igrača nije dostupan."
+api_error_404_embed_title: "Igrač nije pronađen."
+api_error_404_embed_description: "Svoj ID igrača možete pronaći u svom Clash of Clans profilu."
+api_error_404_account_embed_title: "{emoji} Račun nije pronađen"
+api_error_404_account_embed_description: "Skraćenica ili API token koji ste naveli je netočan."
+api_error_404_clans_embed_title: "Klan nije pronađen."
+api_error_404_clans_embed_description: "Oznaka klana sadrži nevažeće znakove i nije se mogla obraditi."
+api_error_429_embed_title: "Previše zahtjeva"
+api_error_429_embed_description: "Poslužitelj Clash of Clans trenutno je preopterećen. Molimo pokušajte ponovno kasnije."
+api_error_500_embed_title: "Interna pogreška poslužitelja"
+api_error_500_embed_description: "Došlo je do neočekivane pogreške. Molimo pokušajte ponovno kasnije."
+api_error_503_embed_title: "Poslužitelj nije dostupan"
+api_error_503_embed_description: "Poslužitelj Clash of Clans trenutno nije dostupan. Molimo pokušajte ponovno kasnije."
+about_command_name: o
+about_command_description: Prikazuje informacije o botu.
+about_embed_author_name: O meni
+about_embed_general_title: Općenito
+about_embed_general_guilds: Poslužitelji
+about_embed_general_installs: Instalacije
+about_embed_cmds_title: "Korištene naredbe:"
+about_embed_shards_shard: Shard
+about_embed_shards_current: Ovaj poslužitelj je na shardu {shard_id}.
+players_command_name: infoigrač
+players_command_description: Prikazuje informacije o igraču Clash Of Clans.
+players_option_playertag_name: oznaka-igrača
+players_option_user_name: discord-račun
+players_option_playertag_description: Oznaka igrača koju želite prikazati.
+players_option_user_description: Discord račun čiji profil igrača želite prikazati.
+players_select_option_placeholder: Odaberite kategoriju
+players_select_option_general_name: Općenito
+players_select_option_general_description: Prikazuje opće informacije o igraču.
+players_select_option_clan_name: Klan
+players_select_option_clan_description: Prikazuje informacije o klanu igrača.
+players_select_option_achievements_name: Postignuća
+players_select_option_achievements_description: Prikazuje postignuća igrača.
+players_select_option_troops_name: Postrojbe
+players_select_option_troops_description: Prikazuje informacije o postrojbama igrača.
+players_general_townHallLevel: Gradska vijećnica
+players_general_expLevel: Iskustvo
+players_general_level: Razina
+player_general_league: Liga
+players_general_currectTrophies: Trenutni trofeji
+players_general_bestTrophies: Najbolji trofeji
+players_general_fight: Borba
+players_general_warstars: Ratne zvijezde
+players_general_attackWins: Pobjede u napadu
+players_general_defenseWins: Pobjede u obrani
+players_general_donations: Donacije
+players_general_troopsDonated: Donirane postrojbe
+players_general_troopsReceived: Primljene postrojbe
+players_general_totalDonations: Ukupne donacije
+players_clan_clanLevel: Razina klana
+players_clan_role: Uloga
+players_clan_role_leader: Vođa
+players_clan_role_coleader: Suvođa
+players_clan_role_elder: Starješina
+players_clan_role_member: Član
+players_clanCapitalContributions: Doprinosi glavnom gradu klana
+players_clan_FullClanInfo: Potpune informacije o klanu
+players_achievements_title: Postignuća {name}
+players_achievements_site: Stranica {page} od {total_pages}
+players_error_invalid_syntax_title: Igrač nije pronađen
+players_error_invalid_syntax_description: "Navedite važeću oznaku igrača ili povežite svoj račun s `/account`"
+players_error_not_linked_title: Račun nije povezan
+players_error_not_linked_description: "{name} još nije povezao svoj račun."
+player_troops_title: Postrojbe {name}
+player_troops_level: "Razina **{level}/{max_level}**"
+player_troops_village_home: Selo
+player_troops_village_builderBase: Baza graditelja
+account_command_name: račun
+account_command_description: Prikazuje informacije o vašem Clash Of Clans računu.
+account_embed_author: Račun {name}
+account_embed_title: "{emoji} Nema registriranog Clash of Clans računa"
+account_embed_description: Da biste povezali svoj Clash of Clans račun, trebate svoju `skraćenicu profila` i svoj `API token`
+account_embed_abbreviation_title: "Skraćenica profila"
+account_embed_abbreviation_description: 'Idite na svoj **profil** Clash of Clans {emoji}. Ispod vašeg imena pronaći ćete `#` nakon kojeg slijede slova. npr.: `#ABCDEFGH`'
+account_embed_token_title: "API token"
+account_embed_token_description: "Otvorite **postavke** {emoji} i pritisnite gumb **Više postavki**. Pomaknite se skroz dolje i pritisnite **Prikaži** ispod **API token**. Kada se prikaže vaš token, možete ga upisati ovdje ili pritisnuti gumb **Kopiraj**."
+account_button_verify_label: Prijava
+account_modal_verify_title: Potvrdi račun
+account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
+account_modal_verify_token_description: 8-znamenkasti kod
+account_modal_verify_embed_title: "{emoji} Račun uspješno registriran"
+account_modal_verify_embed_description: Koristite `/playerinfo` za pregled svog profila.
+account_embed_verified_title: "{emoji} Vaš račun je već registriran"
+account_embed_verified_description: Koristite `/playerinfo` za pregled svog profila.
+account_button_reset_label: Odjava
+account_button_reset_title: "{emoji} Uspješno ste se odjavili"
+clans_command_name: infoklan
+clans_command_description: Prikazuje informacije o klanu u Clash Of Clans.
+clans_option_clantag_name: oznaka-klana
+clans_option_clantag_description: Oznaka klana koju želite prikazati.
+clans_select_option_general_name: Općenito
+clans_select_option_general_description: Prikazuje opće informacije o klanu.
+clans_select_option_placeholder: Odaberite kategoriju
+clans_select_option_members_name: Članovi
+clans_select_option_members_description: Prikazuje informacije o članovima klana.
+clans_general_general: Opće informacije
+clans_general_general_level: "{emoji} Razina: {level}"
+clans_general_general_members: "{emoji} Članovi: {members}"
+clans_general_general_isFamilyFriendly: "{emoji} Prikladno za obitelj"
+clans_general_location: Lokacija
+clans_general_stats: Statistika
+clans_general_stats_clanPoints: "{emoji} Bodovi klana: {points}"
+clans_general_stats_clanBuilderBasePoints: "{emoji} Bodovi baze graditelja: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} Trofeji glavnog grada klana: {points}"
+clans_general_clanwar: Rat klanova
+clans_general_warWinStreak: "{emoji} Niz pobjeda: {streak}"
+clans_general_warWins: "{emoji} Pobjede u ratu: {wins}"
+clans_general_warTies: "{emoji} Neriješeno u ratu: {ties}"
+clans_general_warLosses: "{emoji} Porazi: {losses}"
+clans_members_title: Članovi ({count})
+clans_members_site: Stranica {page} od {total_pages}
+clans_clans_title: Javni klanovi
+clans_clans_site: Stranica {page} od {total_pages}
+clans_clans_requiredTrophies: "Potrebni trofeji: {trophies}"
+clans_clans_join: "[Pridruži se klanu](<{url}>)"
+clans_clans_members: "Članovi: {count}"
+clans_clans_isFamilyFriendly: "Prikladno za obitelj"
+clansearch_command_name: pretragaklana
+clansearch_command_description: Pretražite klan u Clash Of Clans.
+clansearch_option_mcp_name: minimalni-bodovi-klana
+clansearch_option_mcp_description: Minimalni trofeji koje klan mora imati.
+clansearch_option_mcl_name: minimalna-razina-klana
+clansearch_option_mcl_description: Minimalna razina koju klan mora imati.
+clansearch_option_mm_name: minimalno-članova
+clansearch_option_mm_description: Minimalni broj članova koje klan mora imati.
+clansearch_option_mx_name: maksimalno-članova
+clansearch_option_mx_description: Maksimalni broj članova koje klan može imati.
+compare_command_name: usporedi
+compare_command_description: Usporedite dva igrača u Clash Of Clans.
+compare_option_playertag1_name: oznaka-igrača-1
+compare_option_playertag2_name: oznaka-igrača-2
+compare_option_playertag1_description: Oznaka prvog igrača kojeg želite usporediti.
+compare_option_playertag2_description: Oznaka drugog igrača kojeg želite usporediti.
+compare_embed_title: "Usporedba igrača"
+compare_embed_description: "{player1} vs {player2}"
+compare_embed_TownHallLevel: Gradska vijećnica
+compare_embed_ExpLevel: Razina iskustva
+compare_embed_currectTrophies: Trenutni trofeji
+compare_embed_bestTrophies: Najbolji trofeji
+compare_embed_warStars: Ratne zvijezde
+compare_embed_current_donations: "Trenutne donacije ({emoji1}/{emoji2})"
+compare_embed_total_donations: "Ukupne donacije"

@@ -1,0 +1,148 @@
+general_unknown: Неизвестно
+api_error_400_embed_title: "Невалидна заявка"
+api_error_400_embed_description: "Играчът има невалидни символи в таг-а и не може да бъде обработен."
+api_error_403_embed_title: "Достъп отказан"
+api_error_403_embed_description: "Акаунтът на играча не е наличен."
+api_error_404_embed_title: "Играчът не е намерен."
+api_error_404_embed_description: Намерете вашия играч ID в профила си в Clash of Clans.
+api_error_404_account_embed_title: "{emoji} Акаунтът не е намерен"
+api_error_404_account_embed_description: Въведеният от вас **таг** или **API токен** не са правилни.
+api_error_404_clans_embed_title: "Кланът не е намерен."
+api_error_404_clans_embed_description: "Клан тагът съдържа невалидни символи и не може да бъде обработен."
+api_error_429_embed_title: "Твърде много заявки"
+api_error_429_embed_description: "Сървърът на Clash of Clans е претоварен. Моля, опитайте отново по-късно."
+api_error_500_embed_title: "Вътрешна грешка на сървъра"
+api_error_500_embed_description: "Възникна неочаквана грешка. Моля, опитайте отново по-късно."
+api_error_503_embed_title: "Сървърът не е наличен"
+api_error_503_embed_description: "Сървърът на Clash of Clans не е наличен в момента. Моля, опитайте отново по-късно."
+about_command_name: about
+about_command_description: Показва информация за бота.
+about_embed_author_name: За мен
+about_embed_general_title: Обща информация
+about_embed_general_guilds: Сървъри
+about_embed_general_installs: Инсталации
+about_embed_cmds_title: "Използвани команди:"
+about_embed_shards_shard: Шард
+about_embed_shards_current: Този сървър е на шард {shard_id}.
+players_command_name: информация-за-играча
+players_command_description: Показва информация за играч в Clash Of Clans.
+players_option_playertag_name: таг-на-играча
+players_option_user_name: discord-акаунт
+players_option_playertag_description: Тагът на играча, който искате да видите.
+players_option_user_description: Discord акаунтът, чийто профил на играча искате да видите.
+players_select_option_placeholder: Изберете категория
+players_select_option_general_name: Обща информация
+players_select_option_general_description: Показва обща информация за играча.
+players_select_option_clan_name: Клан
+players_select_option_clan_description: Показва информация за клана на играча.
+players_select_option_achievements_name: Постижения
+players_select_option_achievements_description: Показва постиженията на играча.
+players_select_option_troops_name: Войски
+players_select_option_troops_description: Показва информация за войските на играча.
+players_general_townHallLevel: Ниво на кметството
+players_general_expLevel: Ниво на опит
+players_general_level: Ниво
+player_general_league: Лига
+players_general_currectTrophies: текущи трофеи
+players_general_bestTrophies: Най-добри трофеи
+players_general_fight: Битка
+players_general_warstars: Военни звезди
+players_general_attackWins: Победи в атака
+players_general_defenseWins: Победи в защита
+players_general_donations: Дарения
+players_general_troopsDonated: Дарени войски
+players_general_troopsReceived: Получени войски
+players_general_totalDonations: Общо дарения
+players_clan_clanLevel: Ниво на клана
+players_clan_role: Роля
+players_clan_role_leader: Лидер
+players_clan_role_coleader: Заместник лидер
+players_clan_role_elder: Старейшина
+players_clan_role_member: Член
+players_clanCapitalContributions: Принос към клановата столица
+players_clan_FullClanInfo: Пълна информация за клана
+players_achievements_title: Постижения на {name}
+players_achievements_site: Страница {page} от {total_pages}
+players_error_invalid_syntax_title: Играчът не е намерен
+players_error_invalid_syntax_description: "Въведете валиден таг на играча или свържете акаунта си с `/account`"
+players_error_not_linked_title: Акаунтът не е свързан
+players_error_not_linked_description: "{name} все още не е свързал акаунта си."
+player_troops_title: Войски на {name}
+player_troops_level: "Ниво **{level}/{max_level}**"
+player_troops_village_home: Село
+player_troops_village_builderBase: База на строителя
+account_command_name: акаунт
+account_command_description: Показва информация за вашия Clash Of Clans акаунт.
+account_embed_author: Акаунт на {name}
+account_embed_title: "{emoji} Няма регистриран Clash of Clans акаунт"
+account_embed_description: За да свържете вашия Clash of Clans акаунт, ви е необходим вашият `Профил таг` и `API токен`
+account_embed_abbreviation_title: "Профил таг"
+account_embed_abbreviation_description: 'Отидете на вашия Clash of Clans **профил** {emoji}. Под вашето име ще намерите `#` последвано от букви. напр.: `#ABCDEFGH`'
+account_embed_token_title: "API токен"
+account_embed_token_description: "Отворете **Настройки** {emoji} и натиснете бутона **Още настройки**. Превъртете до долу и натиснете **Показване** под **API токен**. След като вашият токен се покаже, можете да го въведете тук или да натиснете бутона **Копиране**."
+account_button_verify_label: Вход
+account_modal_verify_title: Верифициране на акаунт
+account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
+account_modal_verify_token_description: 8-цифрен код
+account_modal_verify_embed_title: "{emoji} Акаунтът е успешно регистриран"
+account_modal_verify_embed_description: Използвайте `/spielerinfo` за да видите вашия профил.
+account_embed_verified_title: "{emoji} Вашият акаунт вече е регистриран"
+account_embed_verified_description: Използвайте `/spielerinfo` за да видите вашия профил.
+account_button_reset_label: Изход
+account_button_reset_title: "{emoji} Успешно сте излезли"
+clans_command_name: информация-за-клана
+clans_command_description: Показва информация за клан в Clash Of Clans.
+clans_option_clantag_name: таг-на-клана
+clans_option_clantag_description: Тагът на клана, който искате да видите.
+clans_select_option_general_name: Обща информация
+clans_select_option_general_description: Показва обща информация за клана.
+clans_select_option_placeholder: Изберете категория
+clans_select_option_members_name: Членове
+clans_select_option_members_description: Показва информация за членовете на клана.
+clans_general_general: Обща информация
+clans_general_general_level: "{emoji} Ниво: {level}"
+clans_general_general_members: "{emoji} Членове: {members}"
+clans_general_general_isFamilyFriendly: "{emoji} Подходящ за семейства"
+clans_general_location: Местоположение
+clans_general_stats: Статистика
+clans_general_stats_clanPoints: "{emoji} Кланови точки: {points}"
+clans_general_stats_clanBuilderBasePoints: "{emoji} Точки на базата на строителя: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} Трофеи на клановата столица: {points}"
+clans_general_clanwar: Кланова война
+clans_general_warWinStreak: "{emoji} Поредица от победи: {streak}"
+clans_general_warWins: "{emoji} Победи във война: {wins}"
+clans_general_warTies: "{emoji} Равенства: {ties}"
+clans_general_warLosses: "{emoji} Загуби: {losses}"
+clans_members_title: Членове ({count})
+clans_members_site: Страница {page} от {total_pages}
+clans_clans_title: Публични кланове
+clans_clans_site: Страница {page} от {total_pages}
+clans_clans_requiredTrophies: "Необходими трофеи: {trophies}"
+clans_clans_join: "[Присъединете се към клана](<{url}>)"
+clans_clans_members: "Членове: {count}"
+clans_clans_isFamilyFriendly: "Подходящ за семейства"
+clansearch_command_name: търсене-на-клан
+clansearch_command_description: Търсене на клан в Clash Of Clans.
+clansearch_option_mcp_name: минимални-кланови-точки
+clansearch_option_mcp_description: Минималните трофеи, които кланът трябва да има.
+clansearch_option_mcl_name: минимално-кланово-ниво
+clansearch_option_mcl_description: Минималното ниво, което кланът трябва да има.
+clansearch_option_mm_name: минимални-членове
+clansearch_option_mm_description: Минималният брой членове, които кланът трябва да има.
+clansearch_option_mx_name: максимални-членове
+clansearch_option_mx_description: Максималният брой членове, които кланът може да има.
+compare_command_name: сравняване
+compare_command_description: Сравнете двама играчи в Clash Of Clans.
+compare_option_playertag1_name: таг-на-играч-1
+compare_option_playertag2_name: таг-на-играч-2
+compare_option_playertag1_description: Тагът на първия играч, който искате да сравните.
+compare_option_playertag2_description: Тагът на втория играч, който искате да сравните.
+compare_embed_title: "Сравнение на играчи"
+compare_embed_description: "{player1} срещу {player2}"
+compare_embed_TownHallLevel: Ниво на кметството
+compare_embed_ExpLevel: Ниво на опит
+compare_embed_currectTrophies: Текущи трофеи
+compare_embed_bestTrophies: Най-добри трофеи
+compare_embed_warStars: Военни звезди
+compare_embed_current_donations: "Текущи дарения ({emoji1}/{emoji2})"
+compare_embed_total_donations: "Общо дарения"

@@ -1,0 +1,148 @@
+general_unknown: Bilinmiyor
+api_error_400_embed_title: "Geçersiz istek"
+api_error_400_embed_description: "Oyuncu etiketi geçersiz karakterler içeriyor ve işlenemiyor."
+api_error_403_embed_title: "Erişim reddedildi"
+api_error_403_embed_description: "Oyuncunun hesabı kullanılamıyor."
+api_error_404_embed_title: "Oyuncu bulunamadı."
+api_error_404_embed_description: Clash of Clans profilinizde oyuncu kimliğinizi bulun.
+api_error_404_account_embed_title: "{emoji} Hesap bulunamadı"
+api_error_404_account_embed_description: Girilen **etiket** veya **API token** doğru değil.
+api_error_404_clans_embed_title: "Klan bulunamadı."
+api_error_404_clans_embed_description: "Klan etiketi geçersiz karakterler içeriyor ve işlenemiyor."
+api_error_429_embed_title: "Çok fazla istek"
+api_error_429_embed_description: "Clash of Clans sunucusu aşırı yüklendi. Lütfen daha sonra tekrar deneyin."
+api_error_500_embed_title: "İç sunucu hatası"
+api_error_500_embed_description: "Beklenmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+api_error_503_embed_title: "Sunucu kullanılamıyor"
+api_error_503_embed_description: "Clash of Clans sunucusu şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin."
+about_command_name: about
+about_command_description: Bot hakkında bilgi gösterir.
+about_embed_author_name: Hakkımda
+about_embed_general_title: Genel
+about_embed_general_guilds: Sunucular
+about_embed_general_installs: Kurulumlar
+about_embed_cmds_title: "Kullanılan komutlar:"
+about_embed_shards_shard: Shard
+about_embed_shards_current: Bu sunucu shard {shard_id} üzerinde.
+players_command_name: oyuncu-bilgisi
+players_command_description: Bir Clash Of Clans oyuncusu hakkında bilgi gösterir.
+players_option_playertag_name: oyuncu-etiketi
+players_option_user_name: discord-hesabı
+players_option_playertag_description: Görmek istediğiniz oyuncunun etiketi.
+players_option_user_description: Profilini görmek istediğiniz Discord hesabı.
+players_select_option_placeholder: Kategori seçin
+players_select_option_general_name: Genel
+players_select_option_general_description: Oyuncu hakkında genel bilgi gösterir.
+players_select_option_clan_name: Klan
+players_select_option_clan_description: Oyuncunun klanı hakkında bilgi gösterir.
+players_select_option_achievements_name: Başarılar
+players_select_option_achievements_description: Oyuncunun başarılarını gösterir.
+players_select_option_troops_name: Birlikler
+players_select_option_troops_description: Oyuncunun birlikleri hakkında bilgi gösterir.
+players_general_townHallLevel: Belediye binası seviyesi
+players_general_expLevel: Deneyim seviyesi
+players_general_level: Seviye
+player_general_league: Lig
+players_general_currectTrophies: mevcut kupalar
+players_general_bestTrophies: en iyi kupalar
+players_general_fight: Savaş
+players_general_warstars: Savaş yıldızları
+players_general_attackWins: Saldırı zaferleri
+players_general_defenseWins: Savunma zaferleri
+players_general_donations: Bağışlar
+players_general_troopsDonated: Bağışlanan birlikler
+players_general_troopsReceived: Alınan birlikler
+players_general_totalDonations: Toplam bağışlar
+players_clan_clanLevel: Klan seviyesi
+players_clan_role: Rol
+players_clan_role_leader: Lider
+players_clan_role_coleader: Eş lider
+players_clan_role_elder: Yaşlı
+players_clan_role_member: Üye
+players_clanCapitalContributions: Klan başkentine katkılar
+players_clan_FullClanInfo: Tam klan bilgisi
+players_achievements_title: "{name} başarıları"
+players_achievements_site: Sayfa {page} / {total_pages}
+players_error_invalid_syntax_title: Oyuncu bulunamadı
+players_error_invalid_syntax_description: "Geçerli bir oyuncu etiketi girin veya hesabınızı `/account` ile bağlayın"
+players_error_not_linked_title: Hesap bağlı değil
+players_error_not_linked_description: "{name} henüz hesabını bağlamadı."
+player_troops_title: "{name} birlikleri"
+player_troops_level: "Seviye **{level}/{max_level}**"
+player_troops_village_home: Köy
+player_troops_village_builderBase: İnşaatçı üssü
+account_command_name: hesap
+account_command_description: Clash Of Clans hesabınız hakkında bilgi gösterir.
+account_embed_author: "{name} hesabı"
+account_embed_title: "{emoji} Kayıtlı Clash of Clans hesabı yok"
+account_embed_description: Clash of Clans hesabınızı bağlamak için `Profil etiketi` ve `API token` gereklidir
+account_embed_abbreviation_title: "Profil etiketi"
+account_embed_abbreviation_description: 'Clash of Clans **profilinize** gidin {emoji}. Adınızın altında `#` işareti ve ardından harfler bulunur. örn.: `#ABCDEFGH`'
+account_embed_token_title: "API token"
+account_embed_token_description: "Ayarlar **{emoji}** açın ve **Daha fazla ayar** düğmesine basın. Aşağı kaydırın ve **API token** altında **Göster** düğmesine basın. Tokeniniz görüntülendiğinde, buraya yazabilir veya **Kopyala** düğmesine basabilirsiniz."
+account_button_verify_label: Giriş yap
+account_modal_verify_title: Hesap doğrulama
+account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
+account_modal_verify_token_description: 8 haneli kod
+account_modal_verify_embed_title: "{emoji} Hesap başarıyla kaydedildi"
+account_modal_verify_embed_description: Profilinizi görmek için `/spielerinfo` kullanın.
+account_embed_verified_title: "{emoji} Hesabınız zaten kayıtlı"
+account_embed_verified_description: Profilinizi görmek için `/spielerinfo` kullanın.
+account_button_reset_label: Çıkış yap
+account_button_reset_title: "{emoji} Başarıyla çıkış yaptınız"
+clans_command_name: klan-bilgisi
+clans_command_description: Clash Of Clans'ta bir klan hakkında bilgi gösterir.
+clans_option_clantag_name: klan-etiketi
+clans_option_clantag_description: Görmek istediğiniz klanın etiketi.
+clans_select_option_general_name: Genel
+clans_select_option_general_description: Klan hakkında genel bilgi gösterir.
+clans_select_option_placeholder: Kategori seçin
+clans_select_option_members_name: Üyeler
+clans_select_option_members_description: Klan üyeleri hakkında bilgi gösterir.
+clans_general_general: Genel bilgi
+clans_general_general_level: "{emoji} Seviye: {level}"
+clans_general_general_members: "{emoji} Üyeler: {members}"
+clans_general_general_isFamilyFriendly: "{emoji} Aile dostu"
+clans_general_location: Konum
+clans_general_stats: İstatistikler
+clans_general_stats_clanPoints: "{emoji} Klan puanları: {points}"
+clans_general_stats_clanBuilderBasePoints: "{emoji} İnşaatçı üssü puanları: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} Klan başkenti kupaları: {points}"
+clans_general_clanwar: Klan savaşı
+clans_general_warWinStreak: "{emoji} Kazanma serisi: {streak}"
+clans_general_warWins: "{emoji} Savaş zaferleri: {wins}"
+clans_general_warTies: "{emoji} Beraberlikler: {ties}"
+clans_general_warLosses: "{emoji} Kayıplar: {losses}"
+clans_members_title: Üyeler ({count})
+clans_members_site: Sayfa {page} / {total_pages}
+clans_clans_title: Genel klanlar
+clans_clans_site: Sayfa {page} / {total_pages}
+clans_clans_requiredTrophies: "Gerekli kupalar: {trophies}"
+clans_clans_join: "[Klana katıl](<{url}>)"
+clans_clans_members: "Üyeler: {count}"
+clans_clans_isFamilyFriendly: "Aile dostu"
+clansearch_command_name: klan-ara
+clansearch_command_description: Clash Of Clans'ta bir klan arayın.
+clansearch_option_mcp_name: minimum-klan-puanları
+clansearch_option_mcp_description: Bir klanın sahip olması gereken minimum kupalar.
+clansearch_option_mcl_name: minimum-klan-seviyesi
+clansearch_option_mcl_description: Bir klanın sahip olması gereken minimum seviye.
+clansearch_option_mm_name: minimum-üyeler
+clansearch_option_mm_description: Bir klanın sahip olması gereken minimum üye sayısı.
+clansearch_option_mx_name: maksimum-üyeler
+clansearch_option_mx_description: Bir klanın sahip olabileceği maksimum üye sayısı.
+compare_command_name: karşılaştır
+compare_command_description: Clash Of Clans'ta iki oyuncuyu karşılaştırın.
+compare_option_playertag1_name: oyuncu-etiketi-1
+compare_option_playertag2_name: oyuncu-etiketi-2
+compare_option_playertag1_description: Karşılaştırmak istediğiniz ilk oyuncunun etiketi.
+compare_option_playertag2_description: Karşılaştırmak istediğiniz ikinci oyuncunun etiketi.
+compare_embed_title: "Oyuncu karşılaştırması"
+compare_embed_description: "{player1} vs {player2}"
+compare_embed_TownHallLevel: Belediye binası seviyesi
+compare_embed_ExpLevel: Deneyim seviyesi
+compare_embed_currectTrophies: Mevcut kupalar
+compare_embed_bestTrophies: En iyi kupalar
+compare_embed_warStars: Savaş yıldızları
+compare_embed_current_donations: "Mevcut bağışlar ({emoji1}/{emoji2})"
+compare_embed_total_donations: "Toplam bağışlar"

@@ -1,0 +1,148 @@
+general_unknown: Unknown
+api_error_400_embed_title: "Bad Request"
+api_error_400_embed_description: "The player tag contains invalid characters and could not be processed."
+api_error_403_embed_title: "Access Denied"
+api_error_403_embed_description: "The player's account is not available."
+api_error_404_embed_title: "Player Not Found."
+api_error_404_embed_description: "You can find your player ID in your Clash of Clans profile."
+api_error_404_account_embed_title: "{emoji} Account Not Found"
+api_error_404_account_embed_description: "The **abbreviation** or **API token** you provided is incorrect."
+api_error_404_clans_embed_title: "Clan Not Found."
+api_error_404_clans_embed_description: "The clan tag contains invalid characters and could not be processed."
+api_error_429_embed_title: "Too Many Requests"
+api_error_429_embed_description: "The Clash of Clans server is currently overloaded. Please try again later."
+api_error_500_embed_title: "Internal Server Error"
+api_error_500_embed_description: "An unexpected error occurred. Please try again later."
+api_error_503_embed_title: "Server Unavailable"
+api_error_503_embed_description: "The Clash of Clans server is currently unavailable. Please try again later."
+about_command_name: about
+about_command_description: Shows information about the bot.
+about_embed_author_name: About Me
+about_embed_general_title: General
+about_embed_general_guilds: Servers
+about_embed_general_installs: Installations
+about_embed_cmds_title: "Commands Used:"
+about_embed_shards_shard: Shard
+about_embed_shards_current: This server is on shard {shard_id}.
+players_command_name: playerinfo
+players_command_description: Shows information about a Clash Of Clans player.
+players_option_playertag_name: player-tag
+players_option_user_name: discord-account
+players_option_playertag_description: The tag of the player you want to display.
+players_option_user_description: The Discord account whose player profile you want to display.
+players_select_option_placeholder: Select a category
+players_select_option_general_name: General
+players_select_option_general_description: Shows general information about the player.
+players_select_option_clan_name: Clan
+players_select_option_clan_description: Shows information about the player's clan.
+players_select_option_achievements_name: Achievements
+players_select_option_achievements_description: Shows the player's achievements.
+players_select_option_troops_name: Troops
+players_select_option_troops_description: Shows information about the player's troops.
+players_general_townHallLevel: Town Hall
+players_general_expLevel: Experience
+players_general_level: Level
+player_general_league: League
+players_general_currectTrophies: Current Trophies
+players_general_bestTrophies: Best Trophies
+players_general_fight: Fight
+players_general_warstars: War Stars
+players_general_attackWins: Attack Wins
+players_general_defenseWins: Defense Wins
+players_general_donations: Donations
+players_general_troopsDonated: Troops Donated
+players_general_troopsReceived: Troops Received
+players_general_totalDonations: Total Donations
+players_clan_clanLevel: Clan Level
+players_clan_role: Role
+players_clan_role_leader: Leader
+players_clan_role_coleader: Co-Leader
+players_clan_role_elder: Elder
+players_clan_role_member: Member
+players_clanCapitalContributions: Clan Capital Contributions
+players_clan_FullClanInfo: Full Clan Information
+players_achievements_title: Achievements of {name}
+players_achievements_site: Page {page} of {total_pages}
+players_error_invalid_syntax_title: Player Not Found
+players_error_invalid_syntax_description: "Provide a valid player tag or link your account with `/account`"
+players_error_not_linked_title: Account Not Linked
+players_error_not_linked_description: "{name} has not linked their account yet."
+player_troops_title: Troops of {name}
+player_troops_level: "Level **{level}/{max_level}**"
+player_troops_village_home: Village
+player_troops_village_builderBase: Builder Base
+account_command_name: account
+account_command_description: Shows information about your Clash Of Clans account.
+account_embed_author: Account of {name}
+account_embed_title: "{emoji} No registered Clash of Clans account"
+account_embed_description: To link your Clash of Clans account, you need your `profile abbreviation` and your `API token`
+account_embed_abbreviation_title: "Profile Abbreviation"
+account_embed_abbreviation_description: 'Go to your Clash of Clans **profile** {emoji}. Under your name, you will find a `#` followed by letters. e.g.: `#ABCDEFGH`'
+account_embed_token_title: "API Token"
+account_embed_token_description: "Open the **settings** {emoji} and press the **More Settings** button. Scroll all the way down and press **Show** under **API Token**. Once your token is displayed, you can type it here or press the **Copy** button."
+account_button_verify_label: Sign In
+account_modal_verify_title: Verify Account
+account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
+account_modal_verify_token_description: 8-digit code
+account_modal_verify_embed_title: "{emoji} Account successfully registered"
+account_modal_verify_embed_description: Use `/playerinfo` to view your profile.
+account_embed_verified_title: "{emoji} Your account is already registered"
+account_embed_verified_description: Use `/playerinfo` to view your profile.
+account_button_reset_label: Sign Out
+account_button_reset_title: "{emoji} You have successfully signed out"
+clans_command_name: claninfo
+clans_command_description: Shows information about a clan in Clash Of Clans.
+clans_option_clantag_name: clan-tag
+clans_option_clantag_description: The tag of the clan you want to display.
+clans_select_option_general_name: General
+clans_select_option_general_description: Shows general information about the clan.
+clans_select_option_placeholder: Select a category
+clans_select_option_members_name: Members
+clans_select_option_members_description: Shows information about the clan members.
+clans_general_general: General Information
+clans_general_general_level: "{emoji} Level: {level}"
+clans_general_general_members: "{emoji} Members: {members}"
+clans_general_general_isFamilyFriendly: "{emoji} Family Friendly"
+clans_general_location: Location
+clans_general_stats: Statistics
+clans_general_stats_clanPoints: "{emoji} Clan Points: {points}"
+clans_general_stats_clanBuilderBasePoints: "{emoji} Builder Base Points: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} Clan Capital Trophies: {points}"
+clans_general_clanwar: Clan War
+clans_general_warWinStreak: "{emoji} Win Streak: {streak}"
+clans_general_warWins: "{emoji} War Wins: {wins}"
+clans_general_warTies: "{emoji} War Ties: {ties}"
+clans_general_warLosses: "{emoji} Losses: {losses}"
+clans_members_title: Members ({count})
+clans_members_site: Page {page} of {total_pages}
+clans_clans_title: Public Clans
+clans_clans_site: Page {page} of {total_pages}
+clans_clans_requiredTrophies: "Required Trophies: {trophies}"
+clans_clans_join: "[Join Clan](<{url}>)"
+clans_clans_members: "Members: {count}"
+clans_clans_isFamilyFriendly: "Family Friendly"
+clansearch_command_name: clansearch
+clansearch_command_description: Search for a clan in Clash Of Clans.
+clansearch_option_mcp_name: minimum-clan-points
+clansearch_option_mcp_description: The minimum trophies a clan must have.
+clansearch_option_mcl_name: minimum-clan-level
+clansearch_option_mcl_description: The minimum level a clan must have.
+clansearch_option_mm_name: minimum-members
+clansearch_option_mm_description: The minimum number of members a clan must have.
+clansearch_option_mx_name: maximum-members
+clansearch_option_mx_description: The maximum number of members a clan can have.
+compare_command_name: compare
+compare_command_description: Compare two players in Clash Of Clans.
+compare_option_playertag1_name: player-tag-1
+compare_option_playertag2_name: player-tag-2
+compare_option_playertag1_description: The tag of the first player you want to compare.
+compare_option_playertag2_description: The tag of the second player you want to compare.
+compare_embed_title: "Player Comparison"
+compare_embed_description: "{player1} vs {player2}"
+compare_embed_TownHallLevel: Town Hall
+compare_embed_ExpLevel: Experience Level
+compare_embed_currectTrophies: Current Trophies
+compare_embed_bestTrophies: Best Trophies
+compare_embed_warStars: War Stars
+compare_embed_current_donations: "Current Donations ({emoji1}/{emoji2})"
+compare_embed_total_donations: "Total Donations"

@@ -1,0 +1,148 @@
+general_unknown: अज्ञात
+api_error_400_embed_title: "अमान्य अनुरोध"
+api_error_400_embed_description: "खिलाड़ी टैग में अमान्य वर्ण हैं और इसे संसाधित नहीं किया जा सकता।"
+api_error_403_embed_title: "प्रवेश अस्वीकृत"
+api_error_403_embed_description: "खिलाड़ी का खाता उपलब्ध नहीं है।"
+api_error_404_embed_title: "खिलाड़ी नहीं मिला।"
+api_error_404_embed_description: अपने Clash of Clans प्रोफ़ाइल में अपना खिलाड़ी आईडी खोजें।
+api_error_404_account_embed_title: "{emoji} खाता नहीं मिला"
+api_error_404_account_embed_description: आपके द्वारा दिया गया **टैग** या **API टोकन** सही नहीं हैं।
+api_error_404_clans_embed_title: "क्लान नहीं मिला।"
+api_error_404_clans_embed_description: "क्लान टैग में अमान्य वर्ण हैं और इसे संसाधित नहीं किया जा सकता।"
+api_error_429_embed_title: "बहुत अधिक अनुरोध"
+api_error_429_embed_description: "Clash of Clans सर्वर वर्तमान में ओवरलोडेड है। कृपया बाद में पुनः प्रयास करें।"
+api_error_500_embed_title: "आंतरिक सर्वर त्रुटि"
+api_error_500_embed_description: "एक अप्रत्याशित त्रुटि हुई। कृपया बाद में पुनः प्रयास करें।"
+api_error_503_embed_title: "सर्वर उपलब्ध नहीं है"
+api_error_503_embed_description: "Clash of Clans सर्वर वर्तमान में उपलब्ध नहीं है। कृपया बाद में पुनः प्रयास करें।"
+about_command_name: about
+about_command_description: बॉट के बारे में जानकारी दिखाता है।
+about_embed_author_name: मेरे बारे में
+about_embed_general_title: सामान्य
+about_embed_general_guilds: सर्वर
+about_embed_general_installs: इंस्टॉलेशन
+about_embed_cmds_title: "प्रयुक्त कमांड:"
+about_embed_shards_shard: शार्ड
+about_embed_shards_current: यह सर्वर शार्ड {shard_id} पर है।
+players_command_name: खिलाड़ी-जानकारी
+players_command_description: Clash Of Clans खिलाड़ी के बारे में जानकारी दिखाता है।
+players_option_playertag_name: खिलाड़ी-टैग
+players_option_user_name: discord-खाता
+players_option_playertag_description: उस खिलाड़ी का टैग जिसे आप देखना चाहते हैं।
+players_option_user_description: उस Discord खाते का खिलाड़ी प्रोफ़ाइल जिसे आप देखना चाहते हैं।
+players_select_option_placeholder: श्रेणी चुनें
+players_select_option_general_name: सामान्य
+players_select_option_general_description: खिलाड़ी के बारे में सामान्य जानकारी दिखाता है।
+players_select_option_clan_name: क्लान
+players_select_option_clan_description: खिलाड़ी के क्लान के बारे में जानकारी दिखाता है।
+players_select_option_achievements_name: उपलब्धियां
+players_select_option_achievements_description: खिलाड़ी की उपलब्धियां दिखाता है।
+players_select_option_troops_name: सैनिक
+players_select_option_troops_description: खिलाड़ी के सैनिकों के बारे में जानकारी दिखाता है।
+players_general_townHallLevel: टाउन हॉल स्तर
+players_general_expLevel: अनुभव स्तर
+players_general_level: स्तर
+player_general_league: लीग
+players_general_currectTrophies: वर्तमान ट्रॉफी
+players_general_bestTrophies: सर्वश्रेष्ठ ट्रॉफी
+players_general_fight: लड़ाई
+players_general_warstars: युद्ध सितारे
+players_general_attackWins: आक्रमण जीत
+players_general_defenseWins: रक्षा जीत
+players_general_donations: दान
+players_general_troopsDonated: दान किए गए सैनिक
+players_general_troopsReceived: प्राप्त सैनिक
+players_general_totalDonations: कुल दान
+players_clan_clanLevel: क्लान स्तर
+players_clan_role: भूमिका
+players_clan_role_leader: नेता
+players_clan_role_coleader: सह-नेता
+players_clan_role_elder: बुजुर्ग
+players_clan_role_member: सदस्य
+players_clanCapitalContributions: क्लान राजधानी योगदान
+players_clan_FullClanInfo: पूर्ण क्लान जानकारी
+players_achievements_title: "{name} की उपलब्धियां"
+players_achievements_site: पृष्ठ {page} / {total_pages}
+players_error_invalid_syntax_title: खिलाड़ी नहीं मिला
+players_error_invalid_syntax_description: "एक मान्य खिलाड़ी टैग दर्ज करें या अपने खाते को `/account` के साथ लिंक करें"
+players_error_not_linked_title: खाता लिंक नहीं है
+players_error_not_linked_description: "{name} ने अभी तक अपना खाता लिंक नहीं किया है।"
+player_troops_title: "{name} के सैनिक"
+player_troops_level: "स्तर **{level}/{max_level}**"
+player_troops_village_home: गांव
+player_troops_village_builderBase: बिल्डर बेस
+account_command_name: खाता
+account_command_description: आपके Clash Of Clans खाते के बारे में जानकारी दिखाता है।
+account_embed_author: "{name} का खाता"
+account_embed_title: "{emoji} कोई पंजीकृत Clash of Clans खाता नहीं"
+account_embed_description: अपने Clash of Clans खाते को लिंक करने के लिए, आपको अपना `प्रोफ़ाइल टैग` और `API टोकन` चाहिए
+account_embed_abbreviation_title: "प्रोफ़ाइल टैग"
+account_embed_abbreviation_description: 'अपने Clash of Clans **प्रोफ़ाइल** {emoji} पर जाएं। आपके नाम के नीचे आपको एक `#` मिलेगा जिसके बाद अक्षर होंगे। उदाहरण: `#ABCDEFGH`'
+account_embed_token_title: "API टोकन"
+account_embed_token_description: "सेटिंग्स **{emoji}** खोलें और **अधिक सेटिंग्स** बटन पर क्लिक करें। नीचे स्क्रॉल करें और **API टोकन** के तहत **दिखाएं** पर क्लिक करें। एक बार जब आपका टोकन दिखाई दे, तो आप इसे यहां टाइप कर सकते हैं या **कॉपी** बटन पर क्लिक कर सकते हैं।"
+account_button_verify_label: साइन इन करें
+account_modal_verify_title: खाता सत्यापन
+account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
+account_modal_verify_token_description: 8-अंकीय कोड
+account_modal_verify_embed_title: "{emoji} खाता सफलतापूर्वक पंजीकृत"
+account_modal_verify_embed_description: अपना प्रोफ़ाइल देखने के लिए `/spielerinfo` का उपयोग करें।
+account_embed_verified_title: "{emoji} आपका खाता पहले से ही पंजीकृत है"
+account_embed_verified_description: अपना प्रोफ़ाइल देखने के लिए `/spielerinfo` का उपयोग करें।
+account_button_reset_label: साइन आउट करें
+account_button_reset_title: "{emoji} आपने सफलतापूर्वक साइन आउट किया है"
+clans_command_name: क्लान-जानकारी
+clans_command_description: Clash Of Clans में एक क्लान के बारे में जानकारी दिखाता है।
+clans_option_clantag_name: क्लान-टैग
+clans_option_clantag_description: उस क्लान का टैग जिसे आप देखना चाहते हैं।
+clans_select_option_general_name: सामान्य
+clans_select_option_general_description: क्लान के बारे में सामान्य जानकारी दिखाता है।
+clans_select_option_placeholder: श्रेणी चुनें
+clans_select_option_members_name: सदस्य
+clans_select_option_members_description: क्लान के सदस्यों के बारे में जानकारी दिखाता है।
+clans_general_general: सामान्य जानकारी
+clans_general_general_level: "{emoji} स्तर: {level}"
+clans_general_general_members: "{emoji} सदस्य: {members}"
+clans_general_general_isFamilyFriendly: "{emoji} परिवार के अनुकूल"
+clans_general_location: स्थान
+clans_general_stats: आँकड़े
+clans_general_stats_clanPoints: "{emoji} क्लान अंक: {points}"
+clans_general_stats_clanBuilderBasePoints: "{emoji} बिल्डर बेस अंक: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} क्लान राजधानी ट्रॉफी: {points}"
+clans_general_clanwar: क्लान युद्ध
+clans_general_warWinStreak: "{emoji} जीत की लकीर: {streak}"
+clans_general_warWins: "{emoji} युद्ध जीत: {wins}"
+clans_general_warTies: "{emoji} टाई: {ties}"
+clans_general_warLosses: "{emoji} हार: {losses}"
+clans_members_title: सदस्य ({count})
+clans_members_site: पृष्ठ {page} / {total_pages}
+clans_clans_title: सार्वजनिक क्लान
+clans_clans_site: पृष्ठ {page} / {total_pages}
+clans_clans_requiredTrophies: "आवश्यक ट्रॉफी: {trophies}"
+clans_clans_join: "[क्लान में शामिल हों](<{url}>)"
+clans_clans_members: "सदस्य: {count}"
+clans_clans_isFamilyFriendly: "परिवार के अनुकूल"
+clansearch_command_name: क्लान-खोज
+clansearch_command_description: Clash Of Clans में एक क्लान खोजें।
+clansearch_option_mcp_name: न्यूनतम-क्लान-अंक
+clansearch_option_mcp_description: न्यूनतम ट्रॉफी जो एक क्लान के पास होनी चाहिए।
+clansearch_option_mcl_name: न्यूनतम-क्लान-स्तर
+clansearch_option_mcl_description: न्यूनतम स्तर जो एक क्लान के पास होना चाहिए।
+clansearch_option_mm_name: न्यूनतम-सदस्य
+clansearch_option_mm_description: न्यूनतम सदस्य संख्या जो एक क्लान के पास होनी चाहिए।
+clansearch_option_mx_name: अधिकतम-सदस्य
+clansearch_option_mx_description: अधिकतम सदस्य संख्या जो एक क्लान के पास हो सकती है।
+compare_command_name: तुलना
+compare_command_description: Clash Of Clans में दो खिलाड़ियों की तुलना करें।
+compare_option_playertag1_name: खिलाड़ी-टैग-1
+compare_option_playertag2_name: खिलाड़ी-टैग-2
+compare_option_playertag1_description: पहले खिलाड़ी का टैग जिसे आप तुलना करना चाहते हैं।
+compare_option_playertag2_description: दूसरे खिलाड़ी का टैग जिसे आप तुलना करना चाहते हैं।
+compare_embed_title: "खिलाड़ियों की तुलना"
+compare_embed_description: "{player1} बनाम {player2}"
+compare_embed_TownHallLevel: टाउन हॉल स्तर
+compare_embed_ExpLevel: अनुभव स्तर
+compare_embed_currectTrophies: वर्तमान ट्रॉफी
+compare_embed_bestTrophies: सर्वश्रेष्ठ ट्रॉफी
+compare_embed_warStars: युद्ध सितारे
+compare_embed_current_donations: "वर्तमान दान ({emoji1}/{emoji2})"
+compare_embed_total_donations: "कुल दान"

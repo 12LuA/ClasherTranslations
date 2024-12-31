@@ -1,0 +1,148 @@
+general_unknown: Άγνωστο
+api_error_400_embed_title: "Μη έγκυρο αίτημα"
+api_error_400_embed_description: "Το tag του παίκτη περιέχει μη έγκυρους χαρακτήρες και δεν μπορεί να επεξεργαστεί."
+api_error_403_embed_title: "Απαγορευμένη πρόσβαση"
+api_error_403_embed_description: "Ο λογαριασμός του παίκτη δεν είναι διαθέσιμος."
+api_error_404_embed_title: "Ο παίκτης δεν βρέθηκε."
+api_error_404_embed_description: Βρείτε το ID του παίκτη σας στο προφίλ σας στο Clash of Clans.
+api_error_404_account_embed_title: "{emoji} Ο λογαριασμός δεν βρέθηκε"
+api_error_404_account_embed_description: Το **tag** ή το **API token** που δώσατε δεν είναι σωστά.
+api_error_404_clans_embed_title: "Ο κλαν δεν βρέθηκε."
+api_error_404_clans_embed_description: "Το tag του κλαν περιέχει μη έγκυρους χαρακτήρες και δεν μπορεί να επεξεργαστεί."
+api_error_429_embed_title: "Πάρα πολλά αιτήματα"
+api_error_429_embed_description: "Ο διακομιστής του Clash of Clans είναι υπερφορτωμένος. Παρακαλώ δοκιμάστε ξανά αργότερα."
+api_error_500_embed_title: "Εσωτερικό σφάλμα διακομιστή"
+api_error_500_embed_description: "Παρουσιάστηκε ένα απρόσμενο σφάλμα. Παρακαλώ δοκιμάστε ξανά αργότερα."
+api_error_503_embed_title: "Ο διακομιστής δεν είναι διαθέσιμος"
+api_error_503_embed_description: "Ο διακομιστής του Clash of Clans δεν είναι διαθέσιμος αυτή τη στιγμή. Παρακαλώ δοκιμάστε ξανά αργότερα."
+about_command_name: about
+about_command_description: Εμφανίζει πληροφορίες για το bot.
+about_embed_author_name: Σχετικά με εμένα
+about_embed_general_title: Γενικά
+about_embed_general_guilds: Διακομιστές
+about_embed_general_installs: Εγκαταστάσεις
+about_embed_cmds_title: "Χρησιμοποιημένες εντολές:"
+about_embed_shards_shard: Shard
+about_embed_shards_current: Αυτός ο διακομιστής βρίσκεται στο shard {shard_id}.
+players_command_name: πληροφορίες-παίκτη
+players_command_description: Εμφανίζει πληροφορίες για έναν παίκτη του Clash Of Clans.
+players_option_playertag_name: tag-παίκτη
+players_option_user_name: discord-λογαριασμός
+players_option_playertag_description: Το tag του παίκτη που θέλετε να δείτε.
+players_option_user_description: Ο λογαριασμός Discord του οποίου το προφίλ παίκτη θέλετε να δείτε.
+players_select_option_placeholder: Επιλέξτε κατηγορία
+players_select_option_general_name: Γενικά
+players_select_option_general_description: Εμφανίζει γενικές πληροφορίες για τον παίκτη.
+players_select_option_clan_name: Κλαν
+players_select_option_clan_description: Εμφανίζει πληροφορίες για τον κλαν του παίκτη.
+players_select_option_achievements_name: Επιτεύγματα
+players_select_option_achievements_description: Εμφανίζει τα επιτεύγματα του παίκτη.
+players_select_option_troops_name: Στρατεύματα
+players_select_option_troops_description: Εμφανίζει πληροφορίες για τα στρατεύματα του παίκτη.
+players_general_townHallLevel: Επίπεδο δημαρχείου
+players_general_expLevel: Επίπεδο εμπειρίας
+players_general_level: Επίπεδο
+player_general_league: Λίγκα
+players_general_currectTrophies: τρέχοντα τρόπαια
+players_general_bestTrophies: καλύτερα τρόπαια
+players_general_fight: Μάχη
+players_general_warstars: Αστέρια πολέμου
+players_general_attackWins: Νίκες επίθεσης
+players_general_defenseWins: Νίκες άμυνας
+players_general_donations: Δωρεές
+players_general_troopsDonated: Δωρηθέντα στρατεύματα
+players_general_troopsReceived: Ληφθέντα στρατεύματα
+players_general_totalDonations: Συνολικές δωρεές
+players_clan_clanLevel: Επίπεδο κλαν
+players_clan_role: Ρόλος
+players_clan_role_leader: Αρχηγός
+players_clan_role_coleader: Συμπαρχηγός
+players_clan_role_elder: Πρεσβύτερος
+players_clan_role_member: Μέλος
+players_clanCapitalContributions: Συνεισφορές στην πρωτεύουσα του κλαν
+players_clan_FullClanInfo: Πλήρεις πληροφορίες κλαν
+players_achievements_title: Επιτεύγματα του {name}
+players_achievements_site: Σελίδα {page} από {total_pages}
+players_error_invalid_syntax_title: Ο παίκτης δεν βρέθηκε
+players_error_invalid_syntax_description: "Δώστε ένα έγκυρο tag παίκτη ή συνδέστε τον λογαριασμό σας με `/account`"
+players_error_not_linked_title: Ο λογαριασμός δεν είναι συνδεδεμένος
+players_error_not_linked_description: "{name} δεν έχει συνδέσει ακόμα τον λογαριασμό του."
+player_troops_title: Στρατεύματα του {name}
+player_troops_level: "Επίπεδο **{level}/{max_level}**"
+player_troops_village_home: Χωριό
+player_troops_village_builderBase: Βάση κατασκευαστή
+account_command_name: λογαριασμός
+account_command_description: Εμφανίζει πληροφορίες για τον λογαριασμό σας στο Clash Of Clans.
+account_embed_author: Λογαριασμός του {name}
+account_embed_title: "{emoji} Δεν υπάρχει καταχωρημένος λογαριασμός Clash of Clans"
+account_embed_description: Για να συνδέσετε τον λογαριασμό σας στο Clash of Clans, χρειάζεστε το `Tag προφίλ` και το `API token`
+account_embed_abbreviation_title: "Tag προφίλ"
+account_embed_abbreviation_description: 'Μεταβείτε στο **προφίλ** σας στο Clash of Clans {emoji}. Κάτω από το όνομά σας θα βρείτε ένα `#` ακολουθούμενο από γράμματα. π.χ.: `#ABCDEFGH`'
+account_embed_token_title: "API token"
+account_embed_token_description: "Ανοίξτε τις **Ρυθμίσεις** {emoji} και πατήστε το κουμπί **Περισσότερες ρυθμίσεις**. Κάντε κύλιση προς τα κάτω και πατήστε **Εμφάνιση** κάτω από το **API token**. Μόλις εμφανιστεί το token σας, μπορείτε να το πληκτρολογήσετε εδώ ή να πατήσετε το κουμπί **Αντιγραφή**."
+account_button_verify_label: Σύνδεση
+account_modal_verify_title: Επαλήθευση λογαριασμού
+account_modal_verify_abbreviation_placeholder: "#ABCDEFGH"
+account_modal_verify_token_description: 8-ψήφιος κωδικός
+account_modal_verify_embed_title: "{emoji} Ο λογαριασμός καταχωρήθηκε με επιτυχία"
+account_modal_verify_embed_description: Χρησιμοποιήστε `/spielerinfo` για να δείτε το προφίλ σας.
+account_embed_verified_title: "{emoji} Ο λογαριασμός σας είναι ήδη καταχωρημένος"
+account_embed_verified_description: Χρησιμοποιήστε `/spielerinfo` για να δείτε το προφίλ σας.
+account_button_reset_label: Αποσύνδεση
+account_button_reset_title: "{emoji} Αποσυνδεθήκατε με επιτυχία"
+clans_command_name: πληροφορίες-κλαν
+clans_command_description: Εμφανίζει πληροφορίες για έναν κλαν στο Clash Of Clans.
+clans_option_clantag_name: tag-κλαν
+clans_option_clantag_description: Το tag του κλαν που θέλετε να δείτε.
+clans_select_option_general_name: Γενικά
+clans_select_option_general_description: Εμφανίζει γενικές πληροφορίες για τον κλαν.
+clans_select_option_placeholder: Επιλέξτε κατηγορία
+clans_select_option_members_name: Μέλη
+clans_select_option_members_description: Εμφανίζει πληροφορίες για τα μέλη του κλαν.
+clans_general_general: Γενικές πληροφορίες
+clans_general_general_level: "{emoji} Επίπεδο: {level}"
+clans_general_general_members: "{emoji} Μέλη: {members}"
+clans_general_general_isFamilyFriendly: "{emoji} Κατάλληλο για οικογένειες"
+clans_general_location: Τοποθεσία
+clans_general_stats: Στατιστικά
+clans_general_stats_clanPoints: "{emoji} Πόντοι κλαν: {points}"
+clans_general_stats_clanBuilderBasePoints: "{emoji} Πόντοι βάσης κατασκευαστή: {points}"
+clans_general_stats_clanCapitalPoints: "{emoji} Τρόπαια πρωτεύουσας κλαν: {points}"
+clans_general_clanwar: Πόλεμος κλαν
+clans_general_warWinStreak: "{emoji} Σειρά νικών: {streak}"
+clans_general_warWins: "{emoji} Νίκες στον πόλεμο: {wins}"
+clans_general_warTies: "{emoji} Ισοπαλίες: {ties}"
+clans_general_warLosses: "{emoji} Ήττες: {losses}"
+clans_members_title: Μέλη ({count})
+clans_members_site: Σελίδα {page} από {total_pages}
+clans_clans_title: Δημόσιοι κλαν
+clans_clans_site: Σελίδα {page} από {total_pages}
+clans_clans_requiredTrophies: "Απαιτούμενα τρόπαια: {trophies}"
+clans_clans_join: "[Συμμετοχή στον κλαν](<{url}>)"
+clans_clans_members: "Μέλη: {count}"
+clans_clans_isFamilyFriendly: "Κατάλληλο για οικογένειες"
+clansearch_command_name: αναζήτηση-κλαν
+clansearch_command_description: Αναζήτηση κλαν στο Clash Of Clans.
+clansearch_option_mcp_name: ελάχιστοι-πόντοι-κλαν
+clansearch_option_mcp_description: Οι ελάχιστοι πόντοι που πρέπει να έχει ένας κλαν.
+clansearch_option_mcl_name: ελάχιστο-επίπεδο-κλαν
+clansearch_option_mcl_description: Το ελάχιστο επίπεδο που πρέπει να έχει ένας κλαν.
+clansearch_option_mm_name: ελάχιστα-μέλη
+clansearch_option_mm_description: Ο ελάχιστος αριθμός μελών που πρέπει να έχει ένας κλαν.
+clansearch_option_mx_name: μέγιστα-μέλη
+clansearch_option_mx_description: Ο μέγιστος αριθμός μελών που μπορεί να έχει ένας κλαν.
+compare_command_name: σύγκριση
+compare_command_description: Συγκρίνετε δύο παίκτες στο Clash Of Clans.
+compare_option_playertag1_name: tag-παίκτη-1
+compare_option_playertag2_name: tag-παίκτη-2
+compare_option_playertag1_description: Το tag του πρώτου παίκτη που θέλετε να συγκρίνετε.
+compare_option_playertag2_description: Το tag του δεύτερου παίκτη που θέλετε να συγκρίνετε.
+compare_embed_title: "Σύγκριση παικτών"
+compare_embed_description: "{player1} vs {player2}"
+compare_embed_TownHallLevel: Επίπεδο δημαρχείου
+compare_embed_ExpLevel: Επίπεδο εμπειρίας
+compare_embed_currectTrophies: Τρέχοντα τρόπαια
+compare_embed_bestTrophies: Καλύτερα τρόπαια
+compare_embed_warStars: Αστέρια πολέμου
+compare_embed_current_donations: "Τρέχουσες δωρεές ({emoji1}/{emoji2})"
+compare_embed_total_donations: "Συνολικές δωρεές"
